@@ -78,6 +78,7 @@
 }
 
 /* Desktop Design */
+
 @media (min-width: 1024px) {
     .wrapper {
         max-width: none;
@@ -85,8 +86,15 @@
         padding: 1em 2em;
     }
 
+    /* Removes border from last blog post */
+    .wrapper > *:nth-last-child(2) {
+        border-bottom: none;
+    }
+
     .wrapper h2 {
         font-size: 2.25em;
+        padding-bottom: 0.5em;
+        border-bottom: 3px solid #d3d3d3;
     }
 
     .subtitle {
@@ -103,7 +111,9 @@
         "image title"
         "image author"
         "image date"
-        "image description"
+        "image description";
+        margin-bottom: 2.25em;
+        border-bottom: 3px solid #d3d3d3;
     }
 
     .blog_roll_img_parent {
@@ -140,6 +150,8 @@
     .blog_post .description {
         grid-area: description;
         flex-grow: 1;
+        margin-bottom: 0;
+        padding-bottom: 1em;
     }
 
     .button {
