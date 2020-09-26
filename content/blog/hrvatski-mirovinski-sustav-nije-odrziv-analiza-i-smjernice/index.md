@@ -70,7 +70,7 @@ Mirovinsko osiguranje u Hrvatskoj **nije dovoljno kako bi osiguralo stanovništv
 
 <p style="text-align: center;">Tablica 1. Udjel umirovljenika kojima prijeti siromaštvo (%)</p>
 
-![Tablica 1 Udjel umirovljenika kojima prijeti siromaštvo (%)](./tablica-1.jpg)
+![Tablica 1 Udjel umirovljenika kojima prijeti siromaštvo (%)](./tablica-1.png)
 
 <p style="text-align: center;">Izvor: Izrada autora prema podacima s Eurostata</p>
 
