@@ -107,3 +107,7 @@ Jasno mi je da nisam ama baš sve obradio u ovom članku. Da sam krenuo tako, ov
 Andrian Nimac je student na Ekonomskom fakultetu Sveučilišta u Rijeci. Svira <a href="https://www.facebook.com/fanaaband/" target="_blank" rel="noopener noreferrer">bas gitaru u bendu Fanaa</a> i aktivno prati i uči o glazbenoj industriji kao i o modernoj tehnologiji i automobilskoj industriji.
 
 Andriana možete zapratiti na <a href="https://www.linkedin.com/in/andrian-nimac-7745361b6/" target="_blank" rel="noopener noreferrer">njegovom LinkedIn profilu</a>.
+
+
+Ako želite i dalje čitati o financijama, investiranju i ekonomiji zapratite blog na <a href="https://www.facebook.com/Pri%C4%8Dajmo-o-novcu-103037651540688" target="_blank" rel="noopener noreferrer">Facebook-u</a> i <a href="https://www.linkedin.com/in/dorian-ante%C5%A1i%C4%87-5255361a0/" target="_blank" rel="noopener noreferrer">LinkedIn-u</a>.
+-

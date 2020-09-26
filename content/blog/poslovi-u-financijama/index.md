@@ -129,3 +129,6 @@ Financijska industrija brzo se mijenja. Ono što znamo sada o budućnosti možda
 Do drugog puta, nek Vam i dalje venama teče krv kapitalizma, a mi se čitamo kasnije!
 
 Dorian Antešić
+
+Ako želite i dalje čitati o financijama, investiranju i ekonomiji zapratite blog na <a href="https://www.facebook.com/Pri%C4%8Dajmo-o-novcu-103037651540688" target="_blank" rel="noopener noreferrer">Facebook-u</a> i <a href="https://www.linkedin.com/in/dorian-ante%C5%A1i%C4%87-5255361a0/" target="_blank" rel="noopener noreferrer">LinkedIn-u</a>.
+-
