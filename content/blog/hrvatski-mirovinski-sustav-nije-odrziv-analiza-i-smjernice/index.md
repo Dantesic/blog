@@ -88,7 +88,7 @@ Već sada doprinosi od pojedinaca ne predstavljaju dovoljan iznos kako bi se pok
 
 <p style="text-align: center;">Grafikon 1. Rashod HZMO-a za mirovine i mirovinska primanja</p>
 
-![Grafikon 1., Rashod HZMO-a za mirovine i mirovinska primanja](./grafikon-1.jpg)
+![Grafikon 1., Rashod HZMO-a za mirovine i mirovinska primanja](./grafikon-1.png)
 <p style="text-align: center;">Izvor: Izrada autora prema podacima HZMO-a</p>
 
 
@@ -103,7 +103,7 @@ __*Prvi stup*__, koji se temelji na sustavu međugeneracijske solidarnosti, nema
 
 <p style="text-align: center;">Grafikon 2. Odnos broja osiguranika i broja korisnika mirovina (1980. - 2018.)</p>
 
-![Grafikon 2., Odnos broja osiguranika i broja korisnika mirovina (1980. - 2018.)](./grafikon-2.jpg)
+![Grafikon 2., Odnos broja osiguranika i broja korisnika mirovina (1980. - 2018.)](./grafikon-2.png)
 <p style="text-align: center;">Izvor: Izrada autora prema podacima HZMO-a</p>
 
 
@@ -116,7 +116,7 @@ Prvi problem je u strukturi ulaganja mirovinskih fondova, tj. u imovini koji oni
 
 <p style="text-align: center;">Grafikon 3. Struktura imovine obveznih mirovinskih fondova prema vrsti ulaganja (Kategorije A, B i C)</p>
 
-![Grafikon 3., Struktura imovine obveznih mirovinskih fondova prema vrsti ulaganja (Kategorije A, B i C)](./grafikon-3.jpg)
+![Grafikon 3., Struktura imovine obveznih mirovinskih fondova prema vrsti ulaganja (Kategorije A, B i C)](./grafikon-3.png)
 <p style="text-align: center;">Izvor: Izrada autora prema podacima HANFA-e
 
 
@@ -127,7 +127,7 @@ Drugi problem mirovinskih fondova  je nepregledan rizik kojega građani preuzima
 
 <p style="text-align: center;">Grafikon 4. Struktura imovine obveznih mirovinskih fondova prema domicilnosti (Kategorija A, B i C)</p>
 
-![Grafikon 4., Struktura imovine obveznih mirovinskih fondova prema domicilnosti (Kategorija A, B i C)](./grafikon-4.jpg)
+![Grafikon 4., Struktura imovine obveznih mirovinskih fondova prema domicilnosti (Kategorija A, B i C)](./grafikon-4.png)
 <p style="text-align: center;">Izvor: Izrada autora prema podacima HANFA-e</p>
 
 
@@ -150,7 +150,7 @@ Hrvatski mirovinski sustav nema karakteristike robusnosti (otpornosti) i to se m
 
 <p style="text-align: center;">Tablica 2. Vanjska migracija stanovništva Republike Hrvatske</p>
 
-![Tablica 2., Vanjska migracija stanovništva Republike Hrvatske](./tablica-2.jpg)
+![Tablica 2., Vanjska migracija stanovništva Republike Hrvatske](./tablica-2.png)
 <p style="text-align: center;">Izvor: Izrada autora prema podacima Državnog zavoda za statistiku</p>
 
 
