@@ -104,7 +104,7 @@ Jasno mi je da nisam ama baš sve obradio u ovom članku. Da sam krenuo tako, ov
 ## O autoru
 
 
-Andrian Nimac je student na Ekonomskom fakultetu Sveučilišta u Rijeci. Svira <a href="https://www.facebook.com/fanaaband/" target="_blank" rel="noopener noreferrer">bas gitaru u bendu Fanaa</a> i aktivno prati i uči o glazbenoj industriji kao i o modernoj tehnologiji i automobilskoj industriji.
+Andrian Nimac je student na <a href="https://www.efri.uniri.hr/" target="_blank" rel="noopener noreferrer">Ekonomskom fakultetu Sveučilišta u Rijeci</a>. Svira <a href="https://www.facebook.com/fanaaband/" target="_blank" rel="noopener noreferrer">bas gitaru u bendu Fanaa</a> i aktivno prati i uči o glazbenoj industriji kao i o modernoj tehnologiji i automobilskoj industriji.
 
 Andriana možete zapratiti na <a href="https://www.linkedin.com/in/andrian-nimac-7745361b6/" target="_blank" rel="noopener noreferrer">njegovom LinkedIn profilu</a>.
 
