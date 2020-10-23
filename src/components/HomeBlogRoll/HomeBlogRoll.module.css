@@ -28,7 +28,7 @@
 }
 
 .wrapper hr {
-    border-top: solid #D3D3D3;
+    border-top: solid rgba(12,113,195, 0.3);
     width: 100%;
     margin-bottom: 1.5em;
 }
@@ -94,7 +94,7 @@
     .wrapper h2 {
         font-size: 2.25em;
         padding-bottom: 0.5em;
-        border-bottom: 3px solid #d3d3d3;
+        border-bottom: 3px solid rgba(12,113,195, 0.3);
     }
 
     .subtitle {
@@ -113,7 +113,7 @@
         "image date"
         "image description";
         margin-bottom: 2.25em;
-        border-bottom: 3px solid #d3d3d3;
+        border-bottom: 3px solid rgba(12,113,195, 0.3);
     }
 
     .blog_roll_img_parent {

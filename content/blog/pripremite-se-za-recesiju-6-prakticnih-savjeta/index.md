@@ -1,8 +1,8 @@
 ---
-title: Pripremite se za recesiju:6 praktičnih savjeta
+title: Pripremite se za recesiju - 6 praktičnih savjeta
 author: Filipa Topčić
 date: "2020-10-11"
-description: 6 savjeta o pripremi za recesiju:1.Kreirajte budžet; 2.Otplatite svoje dugove; 3.Izgradite fond za hitne slučajeve; 4.Učinite vaš dohodak što raznolikijim; 5.Diverzificirajte vaš portfelj; 6.Posjedujte raznolik set vještina
+description: 6 savjeta o pripremi za recesiju - 1. Kreirajte budžet; 2. Otplatite svoje dugove; 3. Izgradite fond za hitne slučajeve; 4. Učinite vaš dohodak što raznolikijim; 5. Diverzificirajte vaš portfelj; 6. Posjedujte raznolik set vještina.
 thumbnail: ./koliba-u-snijegu.jpg
 thumbnailAuthor: Nepoznat, Unsplash
 hashtags: ['recesija','ekonomija','savjeti']

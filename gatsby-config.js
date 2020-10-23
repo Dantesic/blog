@@ -1,14 +1,11 @@
 module.exports = {
   siteMetadata: {
     title: `Pričajmo o novcu`,
-    author: {
-      name: `Dorian Antešić`,
-      summary: `Summary is to be written by Dorian himself ofcourse`,
-    },
+    author: `Dorian Antešić`,
     description: `Blog o financijama i ekonomiji`,
     siteUrl: `https://antesic.com`,
     social: {
-      twitter: `dodotwitter`,
+      twitter: `@dantesic`,
     },
   },
   plugins: [

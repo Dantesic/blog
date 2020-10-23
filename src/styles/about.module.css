@@ -1,5 +1,5 @@
 .title {
-    background-color: #F8F9F9;
+    background-color: rgba(12,113,195, 0.125);
     color: #0c71c3;
     padding: 1.5em 1em;
     text-align: center;
@@ -58,7 +58,7 @@
     .about {
         max-width: none;
         margin: 0;
-        padding: 1em 10em;
+        padding: 3em 10em;
     }
 
     .image {
@@ -72,7 +72,7 @@
     }
 
     .about {
-        padding: 1.5em 15em;
+        padding: 3em 15em;
     }
 
     .image {

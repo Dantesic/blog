@@ -3,10 +3,7 @@
   "private": true,
   "description": "Blog powered by Gatsby and Markdown",
   "version": "0.1.0",
-  "author": "Urs Stipec",
-  "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
-  },
+  "author": "Urs97",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.30",
     "@fortawesome/free-brands-svg-icons": "^5.14.0",
@@ -44,16 +41,6 @@
   "devDependencies": {
     "@hot-loader/react-dom": "^16.13.0",
     "prettier": "2.0.5"
-  },
-  "homepage": "https://github.com/gatsbyjs/gatsby-starter-blog#readme",
-  "keywords": [
-    "gatsby"
-  ],
-  "license": "0BSD",
-  "main": "n/a",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/gatsbyjs/gatsby-starter-blog.git"
   },
   "scripts": {
     "build": "gatsby build",
