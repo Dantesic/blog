@@ -1,4 +1,5 @@
 import React from "react"
+
 import PropTypes from "prop-types"
 import { Helmet } from "react-helmet"
 import { useStaticQuery, graphql } from "gatsby"
@@ -20,9 +21,9 @@ const SEO = ({ description, lang, meta, title, postImg, slug }) => {
         }
         defaultImage: file(relativePath: { eq: "hunters-race.jpg" }) {
           childImageSharp {
-              fluid(maxWidth: 1000, quality: 100) {
-                  src
-              }
+            fluid(maxWidth: 1000, quality: 100) {
+              src
+            }
           }
         }
       }
@@ -52,7 +53,7 @@ const SEO = ({ description, lang, meta, title, postImg, slug }) => {
           content: title,
         },
         {
-          property: 'og:image',
+          property: "og:image",
           content: `${siteUrl}${imgThumbnail}`,
         },
         {
@@ -60,7 +61,7 @@ const SEO = ({ description, lang, meta, title, postImg, slug }) => {
           content: metaDescription,
         },
         {
-          property: 'og:url',
+          property: "og:url",
           content: url,
         },
         {

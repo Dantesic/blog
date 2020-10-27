@@ -1,13 +1,13 @@
 import React from "react"
-import styles from '../styles/blogPost.module.css'
+import styles from "../styles/blogPost.module.css"
 
 import { graphql } from "gatsby"
-import Img from 'gatsby-image'
+import Layout from "../components/Layout/Layout"
 import SEO from "../components/seo"
-import Layout from '../components/Layout/Layout'
-import SocialShareComponent from '../components/SocialShareComponent/SocialShareComponent'
+import Img from "gatsby-image"
+import SocialShareComponent from "../components/SocialShareComponent/SocialShareComponent"
 
-const BlogPostTemplate = ({ data, location }) => {
+const BlogPostTemplate = ({ data }) => {
   const post = data.markdownRemark
   const siteTitle = data.site.siteMetadata.title
   const slug = post.fields.slug
@@ -16,7 +16,7 @@ const BlogPostTemplate = ({ data, location }) => {
   const postImgSrc = postImg.src
 
   return (
-    <Layout location={location} title={siteTitle}>
+    <Layout title={siteTitle}>
       <SEO
         title={post.frontmatter.title}
         description={post.frontmatter.description || post.excerpt}
@@ -25,32 +25,25 @@ const BlogPostTemplate = ({ data, location }) => {
       />
       <article className={styles.article}>
         <header>
-          <h1>
-            {post.frontmatter.title}
-          </h1>
-          <p className={styles.date}>
-            {post.frontmatter.date}
-          </p>
-          <p className={styles.author}>
-            {post.frontmatter.author}
-          </p>
-          <Img 
+          <h1>{post.frontmatter.title}</h1>
+          <p className={styles.date}>{post.frontmatter.date}</p>
+          <p className={styles.author}>{post.frontmatter.author}</p>
+          <Img
             className={styles.image}
             fluid={postImg}
             alt={`Photo by ${post.frontmatter.thumbnailAuthor} on Unsplash`}
           />
         </header>
         <section dangerouslySetInnerHTML={{ __html: post.html }} />
-        <footer>
-          {/* Add footer */}
-        </footer>
+        {/* Article footer to be added */}
       </article>
-      <SocialShareComponent 
-        slug={slug} 
-        title={postTitle} 
-        author={post.frontmatter.author} 
-        hashtags={post.frontmatter.hashtags} 
-        postImage={postImgSrc}/>
+      <SocialShareComponent
+        slug={slug}
+        title={postTitle}
+        author={post.frontmatter.author}
+        hashtags={post.frontmatter.hashtags}
+        postImage={postImgSrc}
+      />
     </Layout>
   )
 }

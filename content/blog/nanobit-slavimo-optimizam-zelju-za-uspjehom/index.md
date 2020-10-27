@@ -5,7 +5,7 @@ date: "2020-09-18"
 description: Osim povećanja državnog kredibiliteta kod investitora, Nanobitov uspjeh dati će poticaj hrvatskim start-upovima jer su pokazali da se i odavde može napraviti veliki “exit”, tj. prodaja vlastitog poduzeća. Nije nužno da se ide izvan domovine kako bi se osigurala mogućnost za uspješnu prodaju poduzeća u budućnosti.
 thumbnail: ./nanobit-logo.jpg
 thumbnailAuthor: Nanobit
-hashtags: ['nanobit','startup','hrvatska']
+hashtags: ["nanobit", "startup", "hrvatska"]
 ---
 
 Prije dva dana medijima je odjeknula vijest - Nanobit je prodan za 150 milijuna dolara!
@@ -38,6 +38,4 @@ Slavimo njihov uspjeh jer time slavimo optimizam i želju za uspjehom, ono što 
 
 Uživajte u ovim danima i nek ih bude što više.
 
-
-Ako želite i dalje čitati o financijama, investiranju i ekonomiji zapratite blog na <a href="https://www.facebook.com/Pri%C4%8Dajmo-o-novcu-103037651540688" target="_blank" rel="noopener noreferrer">Facebook-u</a> i <a href="https://www.linkedin.com/in/dorian-ante%C5%A1i%C4%87-5255361a0/" target="_blank" rel="noopener noreferrer">LinkedIn-u</a>.
--
+## Ako želite i dalje čitati o financijama, investiranju i ekonomiji zapratite blog na <a href="https://www.facebook.com/Pri%C4%8Dajmo-o-novcu-103037651540688" target="_blank" rel="noopener noreferrer">Facebook-u</a> i <a href="https://www.linkedin.com/in/dorian-ante%C5%A1i%C4%87-5255361a0/" target="_blank" rel="noopener noreferrer">LinkedIn-u</a>.

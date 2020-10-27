@@ -51,13 +51,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: 'UA-164513049-2',
+        trackingId: "UA-164513049-2",
       },
     },
     {
       resolve: `gatsby-plugin-facebook-pixel`,
       options: {
-        pixelId: '360428395005219',
+        pixelId: "360428395005219",
       },
     },
     `gatsby-plugin-feed`,
@@ -73,7 +73,7 @@ module.exports = {
         // see https://developers.google.com/web/fundamentals/web-app-manifest/#display
         display: `standalone`,
         // display: `minimal-ui`,
-        icon: `src/assets/static/logo.png`,
+        icon: `src/assets/images/logo.png`,
       },
     },
     {

@@ -1,17 +1,15 @@
-import React from 'react'
+import React from "react"
 
-import MobileNav from '../MobileNav/MobileNav'
-import DesktopNav from '../DesktopNav/DesktopNav'
-import Footer from '../Footer/Footer'
+import MobileNav from "../MobileNav/MobileNav"
+import DesktopNav from "../DesktopNav/DesktopNav"
+import Footer from "../Footer/Footer"
 
-const Layout = ({children}) => {
+const Layout = ({ children }) => {
   return (
     <>
       <MobileNav />
       <DesktopNav />
-      <main>
-        {children}
-      </main>
+      <main>{children}</main>
       <Footer />
     </>
   )

@@ -1,20 +1,28 @@
 import React from "react"
-import { graphql } from "gatsby"
+import styles from "../styles/404.module.css"
 
+import { graphql } from "gatsby"
 import SEO from "../components/seo"
 import Layout from "../components/Layout/Layout"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import "../utils/fontawesome"
 
-const NotFoundPage = ({ data, location }) => {
+const NotFoundPage = ({ data }) => {
   const siteTitle = data.site.siteMetadata.title
+  const slug = "/404"
 
   return (
-    <Layout location={location} title={siteTitle}>
+    <Layout title={siteTitle}>
       <SEO
         title={"404: Not Found"}
         description={"This is the 404 page of this site"}
+        slug={slug}
       />
-      <h1>Not Found</h1>
-      <p>You just hit a route that doesn&#39;t exist... the sadness.</p>
+      <section className={styles.wrapper}>
+        <FontAwesomeIcon icon="bomb" className={styles.icon}/>
+        <h1>Not Found</h1>
+        <p>You just hit a route that doesn&#39;t exist... the sadness.</p>
+      </section>
     </Layout>
   )
 }
