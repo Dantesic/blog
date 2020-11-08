@@ -31,6 +31,8 @@ Postoji odličan citat na ovu temu od Evgenyja Chichvarkine, jednog od najuspje�
 
 Citat jasno pokazuje kada uzeti investiciju, a kada kredit. Doduše, bilo bi krivo ne reći da u nekim situacijama ipak financiranje investicijom ima još dodatnih pogodnosti. U vrijeme kriza, kada se poduzeće bori da preživi, imati izvore financiranja od investicija pokazuje se bolje nego od banaka. Ovo je spomenuo i Ante Žigman, predsjednik Upravnog vijeća HANFA-e, gdje kazao da su <a href="https://youtu.be/RlsfXC4fsec?t=676" target="_blank" rel="noopener noreferrer">poduzeća koja su bila financirana od investiranja bolje prošla u vrijeme krize nego onda koja su imala velika zaduženja</a>. Stvar je u tome da kada se poduzeće nađe u problemu ono ne treba isplatiti dobit kroz dividendu svojim dioničarima, a i ako dobiti nema ono će preživjeti dok poduzeća moraju uvijek otplaćivati zaduženje i s time im se situacija pogoršava. Moratorij na kredit je moguć, ali ga je problem dobiti i opet samo odgađa neizbježno.
 
+Investitori će imati više razumijevanja za poduzeće u lošim vremenima. Podržati će ga dodatnim investicijama ako je potrebno. Njima se radi o ulogu te im je uspjeh poduzeća na prvom mjestu jer se jedino tako mogu isplatiti.
+
 ## Financiranje start-upova
 
 Naslov članka postavlja pitanje, što je bolje za poduzeće -  investicija ili kredit od banke? Pitanje na prvu stavlja na istu razinu dva izvora financiranja, ali ipak, oni to nisu uvijek.
