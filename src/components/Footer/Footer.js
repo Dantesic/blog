@@ -24,7 +24,7 @@ const Footer = () => {
       <section className={styles.social_section}>
         <h4>Zapratite na društvenim mrežama</h4>
         <a
-          href="https://www.linkedin.com/in/dorian-ante%C5%A1i%C4%87-5255361a0/"
+          href="https://www.linkedin.com/company/pri%C4%8Dajmo-o-novcu/"
           target="_blank"
           rel="noopener noreferrer"
         >
