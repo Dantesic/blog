@@ -14,7 +14,7 @@ hashtags: ["investiranje", "financije", "portfelj"]
 
 Ovu frazu na engleskom jeziku često koristim, zato ću je još jednom ovdje naglasiti:
 
-*Put your money where your mouth is.*
+>*__Put your money where your mouth is.__*
 
 Ona bi se na hrvatskom jeziku mogla prevesti kao “prijeći s riječi na djela” ili “stoj iza svojih riječi”. Na engleskom jeziku mi zvuči moćnije, a tako i treba zvučati, zato što to smatram najvažnijim kriterijem prilikom **odabira kojeg sadržaja (i savjeta) pratim u vezi investiranja.**
 
