@@ -24,15 +24,15 @@ Ovo su **lihvari**, tj. **kamatari**.
 
 <p style="text-align: center;">Primjer 1. Facebook stranice koje nude zajmove</p>
 
-![Primjer 1. Facebook stranice koje nude zajmove](./lihvari1.jpg)
+![Primjer 1. Facebook stranice koje nude zajmove](./lihvari1.png)
 
 <p style="text-align: center;">Primjer 2.</p>
 
-![Primjer 2.](./lihvari2.jpg)
+![Primjer 2.](./lihvari2.png)
 
 <p style="text-align: center;">Primjer 3.</p>
 
-![Primjer 3.](./lihvari3.jpg)
+![Primjer 3.](./lihvari3.png)
 
 Ima još brdo ovakvih stranica. Samo napišite u pretraživač na Facebooku pojmove “kredit”, “zajmovi”, “pozajmice” ili nešto slično. Uvjerite se sami.
 
