@@ -4,7 +4,7 @@ Blog powered by <a href="https://github.com/gatsbyjs/gatsby" target="_blank" rel
 
 ## Live Website
 
-<a href="https://www.antesic.com/" target="_blank" rel="noopener noreferrer">antesic.com</a>
+<a href="https://www.antesic.com/" target="_blank" rel="noopener noreferrer">https://www.antesic.com</a>
 
 ## Description 
 
