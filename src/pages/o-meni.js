@@ -56,7 +56,7 @@ const About = () => {
         <p>
           Više na mom &nbsp;
           <a
-            href="https://www.linkedin.com/in/dorian-ante%C5%A1i%C4%87-5255361a0"
+            href="https://www.linkedin.com/in/dorianantesic/"
             target="_blank"
             rel="noopener noreferrer"
           >

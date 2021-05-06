@@ -180,4 +180,5 @@ Ono što je bitno za građane je da shvate hrvatski mirovinski sustav i proporci
 
 Građani trebaju povećati svoju financijsku pismenost te naučiti štediti i investirati ušteđeno. To će najbolje postići pametnim budžetiranjem i upravljanjem primarnog izvora prihoda - plaćom. Uspješno budžetiranje i upravljanje osobnim financijama predstavlja temelj zdravog financijskog stanja osobe te osigurava sretniju i lagodniju budućnost i umirovljenje.
 
-## Ako želite i dalje čitati o financijama, investiranju i ekonomiji zapratite blog na <a href="https://www.facebook.com/Pri%C4%8Dajmo-o-novcu-103037651540688" target="_blank" rel="noopener noreferrer">Facebook-u</a> i <a href="https://www.linkedin.com/in/dorian-ante%C5%A1i%C4%87-5255361a0/" target="_blank" rel="noopener noreferrer">LinkedIn-u</a>.
+Ako želite i dalje čitati o financijama, investiranju i ekonomiji zapratite <a href="https://www.facebook.com/Pri%C4%8Dajmo-o-novcu-103037651540688" target="_blank" rel="noopener noreferrer">Facebook</a> i <a href="https://www.linkedin.com/in/dorian-ante%C5%A1i%C4%87-5255361a0/" target="_blank" rel="noopener noreferrer">LinkedIn</a> stranice bloga. 
+-
