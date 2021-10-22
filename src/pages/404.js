@@ -1,40 +1,54 @@
-import React from "react"
-import styles from "../styles/404.module.css"
+import * as React from "react"
+import { Link } from "gatsby"
 
-import { graphql } from "gatsby"
-import SEO from "../components/seo"
-import Layout from "../components/Layout/Layout"
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import "../utils/fontawesome"
+// styles
+const pageStyles = {
+  color: "#232129",
+  padding: "96px",
+  fontFamily: "-apple-system, Roboto, sans-serif, serif",
+}
+const headingStyles = {
+  marginTop: 0,
+  marginBottom: 64,
+  maxWidth: 320,
+}
 
-const NotFoundPage = ({ data }) => {
-  const siteTitle = data.site.siteMetadata.title
-  const slug = "/404"
+const paragraphStyles = {
+  marginBottom: 48,
+}
+const codeStyles = {
+  color: "#8A6534",
+  padding: 4,
+  backgroundColor: "#FFF4DB",
+  fontSize: "1.25rem",
+  borderRadius: 4,
+}
 
+// markup
+const NotFoundPage = () => {
   return (
-    <Layout title={siteTitle}>
-      <SEO
-        title={"404: Not Found"}
-        description={"This is the 404 page of this site"}
-        slug={slug}
-      />
-      <section className={styles.wrapper}>
-        <FontAwesomeIcon icon="bomb" className={styles.icon}/>
-        <h1>Not Found</h1>
-        <p>You just hit a route that doesn&#39;t exist... the sadness.</p>
-      </section>
-    </Layout>
+    <main style={pageStyles}>
+      <title>Not found</title>
+      <h1 style={headingStyles}>Page not found</h1>
+      <p style={paragraphStyles}>
+        Sorry{" "}
+        <span role="img" aria-label="Pensive emoji">
+          😔
+        </span>{" "}
+        we couldn’t find what you were looking for.
+        <br />
+        {process.env.NODE_ENV === "development" ? (
+          <>
+            <br />
+            Try creating a page in <code style={codeStyles}>src/pages/</code>.
+            <br />
+          </>
+        ) : null}
+        <br />
+        <Link to="/">Go home</Link>.
+      </p>
+    </main>
   )
 }
 
 export default NotFoundPage
-
-export const pageQuery = graphql`
-  query {
-    site {
-      siteMetadata {
-        title
-      }
-    }
-  }
-`

@@ -2,22 +2,18 @@ import { library } from "@fortawesome/fontawesome-svg-core"
 import { fab } from "@fortawesome/free-brands-svg-icons"
 
 import {
+  faAddressCard,
+  faArrowUp,
   faBars,
-  faPhone,
-  faEnvelope,
-  faChartLine,
-  faHandHoldingHeart,
-  faDharmachakra,
-  faBomb
+  faCoins,
+  faMoneyCheck,
 } from "@fortawesome/free-solid-svg-icons"
 
 library.add(
   fab,
-  faBars,
-  faPhone,
-  faEnvelope,
-  faChartLine,
-  faHandHoldingHeart,
-  faDharmachakra,
-  faBomb
+  faAddressCard,
+  faCoins,
+  faMoneyCheck,
+  faArrowUp,
+  faBars
 )

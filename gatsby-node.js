@@ -1,49 +1,52 @@
 const path = require(`path`)
 const { createFilePath } = require(`gatsby-source-filesystem`)
 
-exports.createPages = async ({ graphql, actions }) => {
+exports.createPages = ({ graphql, actions }) => {
   const { createPage } = actions
 
-  const result = await graphql(`
-    query {
-      allMarkdownRemark(
-        sort: { fields: [frontmatter___date], order: DESC }
-        limit: 1000
-      ) {
-        edges {
-          node {
-            fields {
-              slug
-            }
-            frontmatter {
-              title
+  const blogPost = path.resolve(`./src/templates/blog-post.js`)
+  return graphql(
+    `
+      {
+        allMarkdownRemark(
+          sort: { fields: [frontmatter___date], order: DESC }
+          limit: 1000
+        ) {
+          edges {
+            node {
+              id
+              fields {
+                slug
+              }
+              frontmatter {
+                title
+              }
             }
           }
         }
       }
+    `
+  ).then(result => {
+    if (result.errors) {
+      throw result.errors
     }
-  `)
 
-  if (result.errors) {
-    throw result.errors
-  }
+    // Create blog posts pages.
+    const posts = result.data.allMarkdownRemark.edges
 
-  // Create blog posts pages.
-  const posts = result.data.allMarkdownRemark.edges
+    posts.forEach((post, index) => {
+      const previous = index === posts.length - 1 ? null : posts[index + 1].node
+      const next = index === 0 ? null : posts[index - 1].node
 
-  posts.forEach((post, index) => {
-    // Previous and next blog post funcionality, not needed atm
-    // const previous = index === posts.length - 1 ? null : posts[index + 1].node
-    // const next = index === 0 ? null : posts[index - 1].node
-
-    createPage({
-      path: post.node.fields.slug,
-      component: path.resolve(`./src/templates/blog-post.js`),
-      context: {
-        slug: post.node.fields.slug,
-        // previous,
-        // next,
-      },
+      createPage({
+        path: post.node.fields.slug,
+        component: blogPost,
+        context: {
+          slug: post.node.fields.slug,
+          previous,
+          next,
+        },
+      })
     })
   })
 }
@@ -54,23 +57,9 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
   if (node.internal.type === `MarkdownRemark`) {
     const value = createFilePath({ node, getNode })
     createNodeField({
-      node,
       name: `slug`,
+      node,
       value,
-    })
-  }
-}
-
-// https://github.com/gatsbyjs/gatsby/issues/11934, bottom of thread, solution in 2 steps
-// Fixes hot reload react error
-exports.onCreateWebpackConfig = ({ stage, actions }) => {
-  if (stage.startsWith("develop")) {
-    actions.setWebpackConfig({
-      resolve: {
-        alias: {
-          "react-dom": "@hot-loader/react-dom",
-        },
-      },
     })
   }
 }

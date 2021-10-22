@@ -1,30 +1,20 @@
-import React from "react"
-import styles from "../styles/blog.module.css"
+import React from 'react'
 
-import Layout from "../components/Layout/Layout"
-import SEO from "../components/seo"
-import BlogRoll from "../components/BlogRoll/BlogRoll"
-import SocialShareComponent from "../components/SocialShareComponent/SocialShareComponent"
+import DesktopNav from '../components/Layout/DesktopNav/DesktopNav'
+import MobileNav from '../components/Layout/MobileNav/MobileNav'
+import BlogPage from '../components/BlogPage/BlogPage'
+import Footer from '../components/Layout/Footer/Footer'
 
-const blog = () => {
-  const slug = "/blog"
-
+const Blog = () => {
   return (
-    <Layout>
-      <SEO
-        title={"Pričajmo o novcu"}
-        description={
-          "Edukativni sadržaj o području financija i ekonomije. Zajedno učimo o novcu. Analize, komentari i reakcije."
-        }
-        slug={slug}
-      />
-      <section className={styles.blog}>
-        <h1>Blog</h1>
-        <BlogRoll />
-      </section>
-      <SocialShareComponent slug={slug} title={"Pričajmo o novcu"} />
-    </Layout>
+    <>
+      <DesktopNav />
+      <MobileNav />
+      <BlogPage />
+      <Footer />
+    </>
   )
 }
 
-export default blog
+export default Blog
+
