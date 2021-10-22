@@ -74,7 +74,7 @@ export const Introduction = styled.section`
 
 export const ArrowSVG = styled.div`
     margin-top: 2em;
-    width: 8em;
+    width: 7em;
 
     :hover {
         cursor: pointer;
@@ -86,7 +86,7 @@ export const ArrowSVG = styled.div`
 `
 
 export const Quote = styled.section`
-    margin-top: 2.5em;
+    margin-top: 2em;
     margin-bottom: 2.5em;
 
     p {
