@@ -37,8 +37,6 @@ const BlogRoll = () => {
     }
   `)
 
-  const change = data;
-
   return (
     <ScrollElement name="blog-roll-wrapper" className={styles.wrapper}>
       <p className={styles.subtitle}>Analize, komentari i reakcije</p>
