@@ -14,7 +14,6 @@ const About = () => {
         description={
           "Učimo o novcu kako bi stvorili bogatstvo za buduće generacije. Blog o financijama i ekonomiji. Edukativni sadržaj o ulaganju i osobnim financijama."
         }
-        slug={slug}
       />
       <DesktopNav />
       <MobileNav />

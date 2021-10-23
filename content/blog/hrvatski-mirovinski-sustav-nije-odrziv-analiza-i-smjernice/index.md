@@ -12,7 +12,7 @@ hashtags: ["mirovinskisustav", "mirovine", "hrvatska"]
 
 ---
 
-<span style="font-size:larger;">Kako bi se znali pripremiti za budućnost potrebno je da razumijemo sadašnjost. Ono što radimo sada odredit će kako će nam budućnost izgledati. Sa financijama to je još više naglašeno. Građani Republike Hrvatske moraju znati kako funkcionira mirovinski sustav, u kakvom je stanju i koji su trendovi koji će utjecati na njega. **Potrebno se financijski pripremiti za ono što slijedi kako ne bismo bili na rubu ili u siromaštvu**.</span>
+Kako bi se znali pripremiti za budućnost potrebno je da razumijemo sadašnjost. Ono što radimo sada odredit će kako će nam budućnost izgledati. Sa financijama to je još više naglašeno. Građani Republike Hrvatske moraju znati kako funkcionira mirovinski sustav, u kakvom je stanju i koji su trendovi koji će utjecati na njega. **Potrebno se financijski pripremiti za ono što slijedi kako ne bismo bili na rubu ili u siromaštvu**.
 
 U suvremenim društvima kojima pripada Hrvatska mirovinski sustav je izrazito važan aspekt socijalne sigurnosti. Mirovinsko osiguranje koristi se kako bi se osigurali <a href="https://hrcak.srce.hr/30235" target="_blank" rel="noopener noreferrer">od rizika starosti, invalidnosti, smrti osoba u obitelji koje ju hrane te od rizika tjelesnog oštećenja</a>. Pogled na mirovinski sustav ima dvije perspektive, individualnu i kolektivnu, koje s vremenom prelaze jedna u drugu. **Individualna perspektiva** se mijenja kako starimo. S godinama nam postaje sve važnija adekvatnost mirovinskog sustava i kakva će nas mirovina dočekati. **Kolektivna perspektiva** uzima u obzir širu sliku te na mirovinski sustav utječe demografija, ekonomija, socijalna i politička determinanta društva .
 
