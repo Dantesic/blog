@@ -19,7 +19,6 @@ const SEO = ({ description, lang, meta, title, postImg, slug }) => {
         defaultImage: file(relativePath: { eq: "naslovna.png" }) {
           childImageSharp {
             gatsbyImageData
-            }
           }
         }
       }

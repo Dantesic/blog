@@ -61,10 +61,10 @@ export const ArrowSVG = styled.div`
     justify-self: center;
     align-self: flex-end;
     margin-top: 2em;
-    width: 6em;
+    width: 5em;
 
     @media (max-width: 600px) {
-        width: 5em;
+        width: 4em;
     }
 `
 
