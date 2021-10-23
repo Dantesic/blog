@@ -69,7 +69,7 @@ const SEO = ({ description, lang, meta, title, postImg, slug }) => {
         },
         {
           name: `twitter:creator`,
-          content: data.site.siteMetadata.social.twitter,
+          content: 'Dantesic',
         },
         {
           name: `twitter:title`,
