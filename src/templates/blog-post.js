@@ -9,9 +9,15 @@ import { graphql } from "gatsby"
 
 const BlogPostTemplate = ({ data }) => {
   const post = data.markdownRemark
+  const slug = post.fields.slug
 
   return (
     <>
+      <SEO
+        title={post.frontmatter.title}
+        description={post.frontmatter.description || post.excerpt}
+        slug={slug}
+      />
       <DesktopNav />
       <MobileNav />
       <Article>

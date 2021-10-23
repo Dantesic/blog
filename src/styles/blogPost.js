@@ -25,7 +25,7 @@ export const Article = styled.article`
 
   a {
     font-weight: 600;
-    color: #2ea3f2;
+    color: #55C0E0;
     text-decoration: none;
   }
 

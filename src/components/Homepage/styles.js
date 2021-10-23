@@ -107,7 +107,7 @@ export const Text = styled.p`
 
     span {
         text-transform: uppercase;
-        color: #55C0E0;
+        color: #FFFFFF;
         font-weight: 600;
     }
 

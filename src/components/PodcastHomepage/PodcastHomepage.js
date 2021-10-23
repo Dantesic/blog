@@ -29,9 +29,9 @@ const PodcastHomepage = () => {
                     Saznajte o čemu razmišljaju stručnjaci iz područja financija i ekonomije. Pretplati se na besplatni email newsletter i primaj direktno na svoju email adresu članke vezane za financije, ekonomiju i životnu filozofiju.
                 </Text>
                 <Form onSubmit={handleSubmit}>
-                    <input type="text" placeholder="Your name" name="name" id="name" required />
-                    <input type="text" placeholder="Your e-mail address" name="mail" id="email" required />
-                    <Button type="submit" value="Subscribe" />
+                    <input type="text" placeholder="Vaše ime" name="name" id="name" required />
+                    <input type="text" placeholder="Vaša e-mail adresa" name="mail" id="email" required />
+                    <Button type="submit" value="Pretplati se" />
                 </Form>
             </SubscribeSection>
             <ImageSection>

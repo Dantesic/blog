@@ -1,8 +1,9 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: "https://www.antesic.com",
-    title: "antesic-new",
-    author: "dorian"
+    title: `Pričajmo o novcu`,
+    author: `Dorian Antešić`,
+    description: `Blog o financijama i ekonomiji`,
+    siteUrl: `https://antesic.com`,
   },
   plugins: [
     {
@@ -84,10 +85,10 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `Antesic.com`,
-        short_name: `Antesic.com`,
+        short_name: `Antesic`,
         start_url: `/`,
         background_color: `#ffffff`,
-        theme_color: `#663399`,
+        theme_color: `#001A35`,
         display: `minimal-ui`,
         icon: `src/assets/images/logo.png`,
       },
