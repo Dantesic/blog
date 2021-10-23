@@ -1,6 +1,7 @@
 import React from "react"
 import { Article, Infobar, Date, Author } from '../styles/blogPost'
 
+import SEO from '../components/seo'
 import DesktopNav from '../components/Layout/DesktopNav/DesktopNav'
 import MobileNav from '../components/Layout/MobileNav/MobileNav'
 import Footer from '../components/Layout/Footer/Footer'
