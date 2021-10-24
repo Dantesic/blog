@@ -47,9 +47,14 @@ export const SubscribeSection = styled.section`
     /* Mobile design */
     @media (max-width: 910px) {
         flex-basis: 50%;
-        padding: 0 1em;
+        padding: 0 2em;
         padding-top: 4em;
         margin-bottom: 3em;
+  }
+
+  @media (max-width: 400px) {
+        padding: 0 1em;
+        padding-top: 4em;
   }
 `
 
@@ -99,6 +104,7 @@ export const Text = styled.p`
     /* Mobile design */
     @media (max-width: 910px) {
         text-align: center;
+        padding-right: 0;
     }
 
     @media (max-width: 768px) {
@@ -140,9 +146,11 @@ export const Form = styled.form`
         }
     }
 
-
-
-
+    @media (max-width: 768px) {
+        input {
+            width: 14em;
+        }
+    }
 `
 
 export const Button = styled.button`

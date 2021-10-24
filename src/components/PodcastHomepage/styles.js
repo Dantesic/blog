@@ -52,7 +52,7 @@ export const SubscribeSection = styled.section`
         padding-left: 9em;
         padding-right: 2.6em;
         flex-basis: 50%;
-        padding: 0 3em;
+        padding: 0 2em;
         padding-top: 4em;
         margin-bottom: 3em;
   }
@@ -156,6 +156,12 @@ export const Form = styled.form`
         font-style: normal;
         font-weight: normal;
         font-size: 0.9em;
+    }
+
+    @media (max-width: 768px) {
+        input {
+            width: 14em;
+        }
     }
 `
 
