@@ -12,6 +12,7 @@ export const Wrapper = styled.section`
         color: rgb(0, 26, 53);
         align-self: center;
         font-size: 2.2em;
+        margin-bottom: 0.5em;
     }
 
     @media (max-width: 768px) {
@@ -62,7 +63,7 @@ export const Social = styled.section`
     display: flex;
     justify-content: center;
     align-items: center;
-    column-gap: 1em;
+    column-gap: 1.5em;
     padding: 2em 0;
 
     h2 {
@@ -147,7 +148,7 @@ export const Contact = styled.section`
 
     @media (max-width: 768px) {
         h2 {
-            padding: 0 1em;
+            padding: 0 0.5em;
             margin-top: 2.5em;
             margin-bottom: 1em;
         }
@@ -156,10 +157,7 @@ export const Contact = styled.section`
 export const Button = styled.button`
     color: #55C0E0 !important;
     background: #FFFFFF !important;
-    border: none !important;
     border: 2px solid #55C0E0 !important;
-    font-style: normal;
-    font-weight: 500;
     margin-top: 1.2em;
     border-radius: 0.8rem !important;
     padding: 0.7rem 1rem !important;
@@ -177,11 +175,5 @@ export const Button = styled.button`
         a {
             color: #FFFFFF !important;
         }  
-    }
-
-    /* Mobile design */
-    @media (max-width: 910px) {
-        font-weight: 700;
-        padding: 0.4em 1.3em !important;
     }
 `

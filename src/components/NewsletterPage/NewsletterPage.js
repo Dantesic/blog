@@ -23,7 +23,7 @@ const BlogPage = () => {
             <p>
                 I write this newsletter to help clear my thoughts. I only write when I have something to say, so <strong>don’t expect spam.</strong>
             </p>
-            <Form onSubmit={handleSubmit}>
+            <Form autoComplete="off" onSubmit={handleSubmit}>
                 <label>
                     <strong>What should I call you?</strong>
                     <input type="text" name="name" placeholder="Your name" id="name" required/>
@@ -32,7 +32,7 @@ const BlogPage = () => {
                     <strong>Where should I send the Newsletter?</strong>
                     <input type="email" name="email" placeholder="Your e-mail address" id="email" required/>
                 </label>
-                <Button type="submit" value="Subscribe" />
+                <Button type="submit">Subscribe</Button>
             </Form>
         </Wrapper>
     )

@@ -14,7 +14,7 @@ export const Button = styled.div`
     :hover {
         background-color: #FFFFFF;
         cursor: pointer;
-        box-shadow: 0 0 0 3px #55C0E0 inset;
+        box-shadow: 0 0 0 2px #55C0E0 inset;
         color: #55C0E0;
 
         a {

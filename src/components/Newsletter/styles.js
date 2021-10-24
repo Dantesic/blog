@@ -78,7 +78,7 @@ export const NewsletterWrapper = styled.section`
     }
 
     p {
-        font-size: 1.2em;
+        font-size: 1.25rem;
         margin-bottom: 1.5em;
         text-align: center;
     }
@@ -86,6 +86,10 @@ export const NewsletterWrapper = styled.section`
     @media (max-width: 768px) {
         h2 {
             font-size: 2em;
+        }
+
+        p {
+            font-size: 1.1rem;
         }
     }
 
@@ -101,12 +105,14 @@ export const NewsletterWrapper = styled.section`
         }
 
         p {
-            font-size: 0.95em;
             margin-bottom: 1.9em;
         }
     }
 `
 export const Form = styled.form`
+    display: flex;
+    flex-direction: column;
+
     input {
         background: #FFFFFF;
         border: 3px solid #55C0E0;
@@ -115,6 +121,10 @@ export const Form = styled.form`
         padding: 0.5em 1em;
         display: flex;
         width: 16em;
+
+        :focus {
+            outline: 1px solid #55C0E0;
+        }
     }
 
     input:first-child {
@@ -132,22 +142,20 @@ export const Form = styled.form`
     }
 `
 
-export const Button = styled.input`
+export const Button = styled.button`
     color: #FFFFFF !important;
     background: #55C0E0 !important;
     border-radius: 0.8rem !important;
     padding: 0.7rem 1rem !important;
-    font-style: normal;
-    font-weight: 500;
     margin: 0 auto;
     margin-top: 2em;
     width: fit-content !important;
-
+    border: none;
+    justify-self: center;
 
     :hover {
         color: #55C0E0 !important;
         background-color: #FFFFFF !important;
         cursor: pointer;
-        box-shadow: 0 0 0 1px #55C0E0 inset;
     }
 `

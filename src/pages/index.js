@@ -1,6 +1,6 @@
 import React from 'react'
 
-import SEO from '../components/seo'
+import Seo from '../components/seo'
 import DesktopNav from '../components/Layout/DesktopNav/DesktopNav'
 import MobileNav from '../components/Layout/MobileNav/MobileNav'
 import Homepage from '../components/Homepage/Homepage'
@@ -14,7 +14,7 @@ import Footer from '../components/Layout/Footer/Footer'
 const Index = () => {
   return (
     <>
-      <SEO
+      <Seo
         title={"Pričajmo o novcu"}
         description={
           "Učimo o novcu kako bi stvorili bogatstvo za buduće generacije. Blog o financijama i ekonomiji. Edukativni sadržaj o ulaganju i osobnim financijama."
@@ -27,8 +27,8 @@ const Index = () => {
       <AboutMe />
       <Bullets />
       <Newsletter />
-      <BlogPreview title={'Blog on English'} empty={true} />
-      <BlogPreview title={'Pričajmo o novcu'} subtitle={'podcast & blog on Croatian'}/>
+      <BlogPreview title={'Blog in English'} link={'/blog'} empty={true} />
+      <BlogPreview title={'Pričajmo o novcu'} link={'/podcast'} subtitle={'podcast & blog in Croatian'}/>
       <Footer />
     </>
   )

@@ -15,12 +15,18 @@ export const Header = styled.section`
     h6 {
         color: #55C0E0;
         text-transform: uppercase;
-        font-size: 1.1em;
+        font-size: 1.25rem;
     }
 
     span {
         font-size: 1em;
         margin-top: 0.1em;
+    }
+
+    @media (max-width: 768px) {
+        h6 {
+            font-size: 1.1rem;
+        }
     }
 `
 

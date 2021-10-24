@@ -104,9 +104,14 @@ export const Author = styled.span`
     color: rgb(0, 26, 53);
     margin-top: 0.5em;
     margin-bottom: 1em;
+    font-size: 1.25rem;
 
     @media (max-width: 900px) {
         margin-top: 0.4em;
         margin-bottom: 0.4em;
+    }
+
+    @media (max-width: 768px) {
+        font-size: 1.1rem;
     }
 `

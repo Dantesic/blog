@@ -45,7 +45,6 @@ export const SubscribeSection = styled.section`
 
     @media (max-width: 1150px) {
         padding-left: 3em;
-        font-size: 0.9em;
     }
 
     /* Mobile design */
@@ -55,7 +54,6 @@ export const SubscribeSection = styled.section`
         flex-basis: 50%;
         padding: 0 3em;
         padding-top: 4em;
-        font-size: 0.75em;
         margin-bottom: 3em;
   }
 `
@@ -64,23 +62,22 @@ export const FormShortcut = styled.section`
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-bottom: 4em;
+    margin-bottom: 2em;
 
-    @media (max-width: 1500px) {
-        margin-bottom: 3em;
-    }
-
-    @media (max-width: 1350px) {
-        margin-bottom: 2.5em;
+    p {
+        font-size: 1.25rem;
     }
 
     /* Mobile design */
     @media (max-width: 910px) {
         align-items: center;
         margin-bottom: 3em;
+    }
 
+    @media (max-width: 768px) {
         p {
-            font-size: 1.1em;
+            font-size: 1.1rem;
+            text-align: center;
         }
     }
 `
@@ -97,17 +94,11 @@ export const H1 = styled.h1`
     /* Mobile design */
     @media (max-width: 910px) {
         text-align: center;
-        font-size: 2.5em;
-    }
-
-    @media ${device.mobileL} {
-        font-size: 2.7em;
     }
 `
 
 export const Text = styled.p`
-    font-weight: 300;
-    font-size: 1.1em;
+    font-size: 1.25rem;
     margin-bottom: 1.5em;
     width: 80%;
 
@@ -127,6 +118,10 @@ export const Text = styled.p`
     @media (max-width: 910px) {
         width: 100%;
     }
+
+    @media (max-width: 768px) {
+        font-size: 1.1rem;
+    }
 `
 
 export const Form = styled.form`
@@ -144,21 +139,12 @@ export const Form = styled.form`
         border: 3px solid #55C0E0;
         box-sizing: border-box;
         border-radius: 0.8em;
-        padding: 0.5em 1em;
+        padding: 0.7rem 1rem !important;
         display: flex;
         width: 17em;
 
-        /* Mobile design */
-        @media (max-width: 910px) {
-            padding: 0.5em 0.7em;
-            font-size: 1.5em;
-            width: 12em;
-        }
-
-        @media ${device.mobileL} {
-            padding: 0.5em 0.7em;
-            font-size: 1.5em;
-            width: 12em;
+        :focus {
+            outline: 1px solid #55C0E0;
         }
     }
 
@@ -169,37 +155,24 @@ export const Form = styled.form`
     input::placeholder {
         font-style: normal;
         font-weight: normal;
-        font-size: 0.85em;
+        font-size: 0.9em;
     }
 `
 
-export const Button = styled.input`
+export const Button = styled.button`
     color: #FFFFFF !important;
     background: #55C0E0 !important;
-    font-style: normal;
-    font-weight: 500;
     margin-top: 2em;
     border-radius: 0.8rem !important;
     padding: 0.7rem 1rem !important;
     width: fit-content !important;
     display: block !important;
+    border: none;
 
     :hover {
         color: #55C0E0 !important;
         background-color: #FFFFFF !important;
         cursor: pointer;
-        box-shadow: 0 0 0 1px #55C0E0 inset;
-    }
-
-    /* Mobile design */
-    @media (max-width: 910px) {
-        font-weight: 700;
-        padding: 0.3em 1.3em !important;
-    }
-
-    @media ${device.mobileL} {
-        /* font-weight: 700;
-        padding: 0.3em 1.3em !important; */
     }
 `
 
@@ -208,7 +181,7 @@ export const FormButton = styled.button`
     background: transparent !important;
     border: 2px solid #55C0E0 !important;
     font-style: normal;
-    font-weight: 500;
+    font-weight: normal;
     margin-top: 1.2em;
     border-radius: 0.8rem !important;
     padding: 0.7rem 1rem !important;
@@ -219,14 +192,6 @@ export const FormButton = styled.button`
         color: #FFFFFF !important;
         background-color: #55C0E0 !important;
         cursor: pointer;
-        box-shadow: 0 0 0 1px #55C0E0 inset;
-    }
-
-    /* Mobile design */
-    @media (max-width: 910px) {
-        font-size: 1.5em;
-        font-weight: 700;
-        padding: 0.3em 1.3em !important;
     }
 `
 

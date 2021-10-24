@@ -73,15 +73,13 @@ export const Navbar = styled.nav`
     justify-self: center;
     display: flex;
     align-items: center;
-    font-size: 0.8em;
 
     a {
-        font-size: 1.15em;
+        font-size: 0.9em;
         color: #FFFFFF;
         margin-left: 1em;
         padding: 0 0.6em;
         padding-bottom: 0.1em;
-        font-weight: 500;
         border-bottom: 3px solid transparent;
     }
 
@@ -91,6 +89,9 @@ export const Navbar = styled.nav`
 
     a:last-child {
         margin-left: 0;
+        font-size: 1rem;
+        padding: 0;
+        border: none;
     }
 
     @media (max-width: 850px) {
@@ -141,7 +142,6 @@ export const ButtonLink = styled.div`
     :hover {
         background-color: #FFFFFF;
         cursor: pointer;
-        box-shadow: 0 0 0 3px #55C0E0 inset; 
 
         a {
             border-bottom: none;
@@ -149,7 +149,7 @@ export const ButtonLink = styled.div`
         }
     }
 
-    @media (max-width: 850px){
+    @media (max-width: 850px) {
         grid-area: button;
         text-align: center;
         width: max-content;
@@ -179,6 +179,8 @@ export const Form = styled.form`
     grid-area: form;
     justify-self: center;
     align-self: flex-start;
+    display: flex;
+    flex-direction: column;
 
     h4 {
         font-size: 1.6em;
@@ -192,16 +194,20 @@ export const Form = styled.form`
         border: 3px solid #55C0E0;
         box-sizing: border-box;
         border-radius: 0.8em;
-        padding: 0.5em 1em;
+        padding: 0.7rem 1rem !important;
         display: flex;
         width: 16em;
         margin-bottom: 1em;
+
+        :focus {
+            outline: 1px solid #55C0E0;
+        }
     }
 
     input::placeholder {
         font-style: normal;
         font-weight: normal;
-        font-size: 0.85em;
+        font-size: 0.9em;
     }
 
     @media (max-width: 850px) {
@@ -215,32 +221,26 @@ export const Form = styled.form`
         }
     }
 
-    @media (max-width: 600px) {
-        font-size: 0.9em;
-    }
-
     @media (max-width: 380px) {
         margin-bottom: 0 !important;
     }
 `
 
-export const FormButton = styled.input`
+export const FormButton = styled.button`
     color: #FFFFFF !important;
     background: #55C0E0 !important;
-    font-style: normal;
-    font-weight: 500;
     margin: 0 auto;
-    margin-top: 2em;
+    margin-top: 1em;
     border-radius: 0.8rem !important;
     padding: 0.7rem 1rem !important;
     width: fit-content !important;
-
+    border: none;
+    margin-bottom: 1em;
 
     :hover {
         color: #55C0E0 !important;
         background-color: #FFFFFF !important;
         cursor: pointer;
-        box-shadow: 0 0 0 1px #55C0E0 inset;
     }
 
     @media (max-width: 380px) {
@@ -342,7 +342,6 @@ export const Email = styled.section`
     a {
         color: #FFFFFF;
         font-size: 0.8em;
-        font-weight: 100;
     }
 
     a:hover {

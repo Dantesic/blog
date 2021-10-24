@@ -7,7 +7,7 @@ import { Link } from "gatsby"
 
 import BlogPostPreview from '../BlogPostPreview/BlogPostPreview'
 
-const BlogPreview = ({ title, subtitle, empty }) => {
+const BlogPreview = ({ title, subtitle, link, empty }) => {
     const data = useStaticQuery(graphql`
     query {
       allMarkdownRemark(
@@ -48,10 +48,10 @@ const BlogPreview = ({ title, subtitle, empty }) => {
                   <BlogPostPreview key={node.id} post={node} />
                 ))}
               </Preview>)
-              : <span>Blog on English coming soon!</span>
+              : <span>Blog in English coming soon!</span>
             }
-                <Button>
-                <Link to="/blog">Read More</Link>
+              <Button>
+                <Link to={link}>Read More</Link>
             </Button>
         </Wrapper>
     )

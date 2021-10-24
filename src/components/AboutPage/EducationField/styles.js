@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+ import styled from 'styled-components'
 
 export const Wrapper = styled.section`
     background-color: #F3F3F3;
@@ -36,12 +36,18 @@ export const Header = styled.section`
 
     h6 {
         color: #001A35;
-        font-size: 1.1em;
+        font-size: 1.25rem;
     }
 
     span {
         margin-top: 0.5em;
         font-size: 1em;
+    }
+
+    @media (max-width: 768px) {
+        span {
+            font-size: 1.1rem;
+        }
     }
 `
 

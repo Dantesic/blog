@@ -27,7 +27,7 @@ export const Wrapper = styled.section`
     p {
         text-align: center;
         color: rgb(0, 26, 53);
-        font-size: 1.15em;
+        font-size: 1.25rem;
         width: 50%;
         margin: 0 auto;
         margin-bottom: 1.5em;
@@ -80,6 +80,7 @@ export const Wrapper = styled.section`
 
         p {
             margin-bottom: 2em;
+            font-size: 1.1rem;
         }
     }
 

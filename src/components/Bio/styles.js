@@ -11,7 +11,6 @@ export const Wrapper = styled.section`
     align-items: center;
 
     h1 {
-        margin-top: 1em;
         color: #001A35;
         font-size: 3em;
         font-weight: 800;
@@ -19,7 +18,7 @@ export const Wrapper = styled.section`
 
     p {
         color: #001A35;
-        font-size: 1.5em;
+        font-size: 1.25rem;
         text-align: center;
         margin: 2em 16em;
 
@@ -62,14 +61,16 @@ export const Wrapper = styled.section`
         }
     }
 
+    @media (max-width: 768px) {
+        p {
+            font-size: 1.1rem;
+        }
+    }
+
     @media (max-width: 600px) {
         h1 {
             font-size: 2em;
             margin-top: 1.5em;
-        }
-
-        p {
-            font-size: 1.2em;
         }
     }
 
@@ -85,9 +86,10 @@ export const Buttons = styled.section`
     display: flex;
 
     div:first-child {
+        color: #55C0E0;
         background-color: #FFFFFF;
-        box-shadow: 0 0 0 3px #55C0E0 inset;
-        margin-right: 0.7em;
+        box-shadow: 0 0 0 2px #55C0E0 inset;
+        margin-right: 0;
 
         :hover {
             background-color: #55C0E0;

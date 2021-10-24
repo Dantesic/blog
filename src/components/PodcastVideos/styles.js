@@ -18,7 +18,6 @@ export const Wrapper = styled.section`
     /* Styling button without affecting child iframe div */
     div {
         margin-top: 4em;
-        padding: 0.7rem 2rem;
     }
 
     @media (max-width: 1400px) {

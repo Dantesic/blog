@@ -54,7 +54,7 @@ export const Bullet = styled.section`
     p {
         text-align: center;
         color: #1F374E;
-        font-size: 1.4em;
+        font-size: 1.25rem;
         padding: 0 3em;
         flex-grow: 1;
         line-height: 1.3em;
@@ -70,6 +70,7 @@ export const Bullet = styled.section`
     @media (max-width: 800px) {
         p {
             padding: 0 5em;
+            font-size: 1.1rem;
         }
     }
 
@@ -85,7 +86,6 @@ export const Bullet = styled.section`
         }
 
         p {
-            font-size: 1.1em;
             padding: 0;
             margin-bottom: 1em;
         }

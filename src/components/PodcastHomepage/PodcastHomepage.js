@@ -28,10 +28,10 @@ const PodcastHomepage = () => {
                 <Text>
                     Saznajte o čemu razmišljaju stručnjaci iz područja financija i ekonomije. Pretplati se na besplatni email newsletter i primaj direktno na svoju email adresu članke vezane za financije, ekonomiju i životnu filozofiju.
                 </Text>
-                <Form onSubmit={handleSubmit}>
+                <Form autoComplete="off" onSubmit={handleSubmit}>
                     <input type="text" placeholder="Vaše ime" name="name" id="name" required />
                     <input type="text" placeholder="Vaša e-mail adresa" name="mail" id="email" required />
-                    <Button type="submit" value="Pretplati se" />
+                    <Button type="submit">Pretplati se</Button>
                 </Form>
             </SubscribeSection>
             <ImageSection>

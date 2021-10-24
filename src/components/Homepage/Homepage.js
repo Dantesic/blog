@@ -10,10 +10,10 @@ const Homepage = () => {
                 <H1>Are you interested in <H1Span>Finance, Economics & Philosophy?</H1Span></H1>
                 <Text>Subscribe Now and receive directly to your inbox materials that will enhance your personal and professional life.</Text>
                 <Text>Yes, it’s completely <span>free.</span></Text>
-                <Form>
+                <Form autoComplete="off">
                     <input type="text" placeholder="Your name" name="name" required />
                     <input type="text" placeholder="Your e-mail address" name="mail" required />
-                    <Button type="submit" value="Subscribe" />
+                    <Button type="submit">Subscribe</Button>
                 </Form>
             </SubscribeSection>
             <ImageSection>

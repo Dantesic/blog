@@ -12,6 +12,11 @@ export const Wrapper = styled.section`
     h2 {
         color: #001A35;
         margin-bottom: 1em;
+        font-size: 2.2rem;
+    }
+
+    span {
+        font-size: 1.25rem;
     }
 
     @media (max-width: 1200px) {
@@ -33,6 +38,14 @@ export const Wrapper = styled.section`
 
     @media (max-width: 768px) {
         margin-bottom: 2.5em;
+
+        h2 {
+            font-size: 2rem;
+        }
+
+        span {
+            font-size: 1.1rem;
+        }
     }
 `
 
@@ -109,12 +122,22 @@ export const Title = styled.div`
     align-items: center;
 
     span {
-        margin-bottom: 1.3em;
+        margin-bottom: 1.5em;
+    }
+
+    @media (max-width: 1450px) {
+        flex-direction: column;
+        align-items: flex-start;
+
+        h2 {
+            margin-bottom: 0.3em;
+        }
     }
 
     @media (max-width: 1100px) {
         margin: 0 auto;
         justify-content: center;
+        align-items: center;
 
         span {
             margin-bottom: 2.7em;
@@ -127,7 +150,7 @@ export const Title = styled.div`
         }
 
         span {
-            margin-bottom: 1em;
+            margin-bottom: 3em;
         }
     }
 

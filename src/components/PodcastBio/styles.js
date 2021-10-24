@@ -12,17 +12,20 @@ export const Wrapper = styled.section`
 
     p {
         color: #001A35;
-        font-size: 1.3em;
+        font-size: 1.25rem;
         text-align: center;
     }
 
     @media (max-width: 768px) {
-        font-size: 0.9em;
-        padding: 4.5em 2em;
+        padding: 4em 2em;
         gap: 3em;
+
+        p {
+            font-size: 1.1rem;
+        }
     }
 
     @media (max-width: 420px) {
-        padding: 6em 1em;
+        padding: 4em 1em;
     }
 `

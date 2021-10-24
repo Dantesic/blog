@@ -17,19 +17,18 @@ export const Wrapper = styled.section`
 
     p {
         color: rgb(0, 26, 53);
-        font-size: 1.15em;
+        font-size: 1.25rem;
         margin-bottom: 2.7em;
     }
 
     span {
         color: rgb(0, 26, 53);
-        font-size: 1.15em;
+        font-size: 1.25rem;
     }
 
     /* Styling button without affecting child iframe div */
     div {
         margin-top: 4em;
-        padding: 0.7rem 2rem;
     }
 
     @media (max-width: 1400px) {
@@ -45,18 +44,14 @@ export const Wrapper = styled.section`
         margin-bottom: 3em;
 
         h2 {
-            font-size: 1.5em;
             margin-bottom: 0.3em;
         }
 
         p {
-            font-size: 1em;
             margin-bottom: 5em;
         }
 
          div {
-             font-size: 0.95em;
-             padding: 0.9em 2.5em;
              margin-top: 3em;
 
          }
@@ -65,6 +60,14 @@ export const Wrapper = styled.section`
     @media (max-width: 768px) {
         h2 {
             font-size: 2em;
+        }
+
+        p {
+            font-size: 1.1rem;
+        }
+
+        span {
+            font-size: 1.1rem;
         }
     }
 

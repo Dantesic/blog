@@ -42,7 +42,8 @@ export const Introduction = styled.section`
     }
 
     span {
-        margin-bottom: 3em;
+        margin-bottom: 2.5em;
+        font-size: 1.25rem;
     }
 
     @media (max-width: 900px) {
@@ -52,6 +53,10 @@ export const Introduction = styled.section`
     @media (max-width: 768px) {
         padding: 0 5em;
         margin-bottom: 4em;
+
+        span {
+            font-size: 1.1rem;
+        }
     }
 
     @media (max-width: 600px) {
@@ -91,11 +96,16 @@ export const Quote = styled.section`
 
     p {
         margin-top: 2.5em;
+        font-size: 1.25rem;
         text-align: center;
     }
 
     @media (max-width: 768px) {
         margin-top: 2.5em;
+
+        p {
+            font-size: 1.1rem;
+        }
     }
 `
 
@@ -210,6 +220,7 @@ export const FollowMeText = styled.section`
     padding: 5em 12em;
 
     p {
+        font-size: 1.25rem;
         margin-bottom: 1em;
     }
 
@@ -242,6 +253,10 @@ export const FollowMeText = styled.section`
     @media (max-width: 800px) {
         padding: 5em 4em;
         padding-top: 3em;
+
+        p {
+            font-size: 1.1rem;
+        }
     }
 
     @media (max-width: 650px) {
@@ -302,7 +317,8 @@ export const BusinessSection = styled.section`
     }
 
     p {
-        margin-bottom: 1.5em;
+        margin-bottom: 1em;
+        font-size: 1.25rem;
     }
 
     @media (max-width: 1400px) {
@@ -335,6 +351,10 @@ export const BusinessSection = styled.section`
         h2 {
             font-size: 2em;
             margin-bottom: 2em;
+        }
+
+        p {
+            margin-bottom: 1.1rem;
         }
     }
 `

@@ -1,7 +1,7 @@
 import React from "react"
 import { Article, Infobar, Date, Author } from '../styles/blogPost'
 
-import SEO from '../components/seo'
+import Seo from '../components/seo'
 import DesktopNav from '../components/Layout/DesktopNav/DesktopNav'
 import MobileNav from '../components/Layout/MobileNav/MobileNav'
 import Footer from '../components/Layout/Footer/Footer'
@@ -10,11 +10,10 @@ import { graphql } from "gatsby"
 
 const BlogPostTemplate = ({ data }) => {
   const post = data.markdownRemark
-  const slug = post.fields.slug
 
   return (
     <>
-      <SEO
+      <Seo
         title={post.frontmatter.title}
         description={post.frontmatter.description || post.excerpt}
       />

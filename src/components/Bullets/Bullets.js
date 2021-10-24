@@ -42,7 +42,7 @@ const Bullets = () => {
                         layout="constrained"
                     />
                 </IconWrapper>
-                <h3>Family wealth</h3>
+                <h3>Family Wealth</h3>
                 <p>Build family wealth that will secure a good life for many generations to come.</p>
             </Bullet>
         </Wrapper>

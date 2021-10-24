@@ -29,19 +29,14 @@ export const NavbarLeft = styled.nav`
     a {
         font-size: 1.1em;
         color: #FFFFFF;
-        margin-left: 0.8em;
+        margin-left: 1em;
         padding: 0 0.6em;
         padding-bottom: 0.1em;
-        font-weight: normal;
         border-bottom: 3px solid transparent;
     }
 
     a:hover {
         border-bottom: 3px solid #55C0E0;
-    }
-
-    a:last-child {
-        margin-left: 0;
     }
 `
 
@@ -50,13 +45,12 @@ export const NavbarRight = styled.nav`
 `
 
 export const NavbarMiddle = styled.nav`
-    margin-right: 4em;
+    margin-right: 4.2em;
     font-size: 1.1em;
 `
 
 export const BlueLink = styled.div`
     background: #55C0E0;
-    font-weight: normal;
     color: #FFFFFF;
     border-radius: 0.8rem;
     padding: 0.7rem 1rem;

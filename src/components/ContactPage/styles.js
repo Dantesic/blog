@@ -5,19 +5,15 @@ export const Wrapper = styled.section`
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 10em;
+    gap: 6em;
     color: rgb(0, 26, 53);
 
     @media (max-width: 1150px) {
-        gap: 5em;
-    }
-
-    @media (max-width: 850px) {
-        gap: 3em;
+        gap: 4em;
     }
 
     /* Mobile design */
-    @media (max-width: 800px) {
+    @media (max-width: 1000px) {
         flex-direction: column;
         margin: 2em 0;
         gap: 1.6em;
@@ -41,11 +37,23 @@ export const Text = styled.section`
     h4 {
         color: rgb(0, 26, 53);
         margin-bottom: 2em;
+        font-size: 1.25rem;
+    }
+
+    p {
+        font-size: 1.25rem;
+    }
+
+    @media (max-width: 1000px) {
+        align-self: center;
+        text-align: center;
+
+        > * {
+            align-self: center;
+        }
     }
 
     @media (max-width: 800px) {
-        align-self: center;
-        text-align: center;
 
         h3 {
             margin-top: 1em;
@@ -53,8 +61,8 @@ export const Text = styled.section`
             margin-bottom: 1.5em;
         }
 
-        > * {
-            align-self: center;
+        p {
+            font-size: 1.1rem;
         }
     }
 `
@@ -70,7 +78,7 @@ export const LastParagraph = styled.p`
         text-decoration: underline;
     }
 
-    @media (max-width: 800px) {
+    @media (max-width: 1000px) {
         margin-bottom: 1.5em;
     }
 `
@@ -78,21 +86,28 @@ export const Form = styled.form`
     background-color: rgba(85, 192, 224, 0.2);
     border-radius: 0.8em;
     padding: 3em;
+    display: flex;
+    flex-direction: column;
 
     h4 {
         color: rgb(0, 26, 53);
         margin-bottom: 2em;
         text-align: center;
+        font-size: 1.25rem;
     }
 
     input, textarea {
         border: 3px solid #55C0E0;
         box-sizing: border-box;
         border-radius: 0.8em;
-        padding: 0.5em 1em;
+        padding: 0.7rem 1rem !important;
         display: flex;
         width: 100%;
         margin-bottom: 1em;
+
+        :focus {
+            outline: 1px solid #55C0E0;
+        }
     }
 
     input::placeholder, textarea::placeholder {
@@ -103,11 +118,15 @@ export const Form = styled.form`
 
     @media (max-width: 800px) {
         padding: 2.5em 2em;
+
+        h4 {
+            font-size: 1.1rem;
+        }
     }
 
     @media (max-width: 420px) {
         input, textarea {
-            width: 100%em;
+            width: 100%;
         }
 
         input:first-child {
@@ -120,25 +139,24 @@ export const Form = styled.form`
     }
 `
 
-export const Button = styled.input`
+export const Button = styled.button`
     color: #FFFFFF !important;
     background: #55C0E0 !important;
     font-style: normal;
-    font-weight: 500;
     margin: 0 auto;
     margin-top: 1.5em;
-    border-radius: 0.8em;
     border-radius: 0.8rem !important;
     padding: 0.7rem 1rem !important;
     width: fit-content !important;
     margin-bottom: 0 !important;
+    border: none;
 
 
     :hover {
         color: #55C0E0 !important;
         background-color: #FFFFFF !important;
         cursor: pointer;
-        box-shadow: 0 0 0 1px #55C0E0 inset;
+        box-shadow: 0 0 0 2px #55C0E0 inset;
     }
 
     @media (max-width: 768px) {

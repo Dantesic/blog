@@ -2,6 +2,7 @@ import styled from 'styled-components'
 
 export const Wrapper = styled.section`
     margin-bottom: 1em;
+    font-size: 1.25rem;
 
     a {
         color: #55C0E0;
@@ -19,5 +20,9 @@ export const Wrapper = styled.section`
 
     @media (max-width: 550px) {
         text-align: center;
+    }
+
+    @media (max-width: 768px) {
+        font-size: 1.1rem;
     }
 `

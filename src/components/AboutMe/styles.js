@@ -6,14 +6,14 @@ export const Wrapper = styled.section`
     background-color: #FFFFFF;
     justify-content: center;
     align-items: center;
-    margin: 10rem 9rem;
+    padding: 10rem 9rem;
 
     @media (max-width: 1100px) {
         display: grid;
         grid-template-areas:
         "photo"
         "text";
-        margin: 8rem 9rem;
+        padding: 8rem 9rem;
 
         :last-child {
             grid-area: photo;
@@ -22,12 +22,11 @@ export const Wrapper = styled.section`
     }
 
     @media (max-width: 850px) {
-        margin: 7rem 5rem;
+        padding: 7rem 5rem;
     }
 
     @media (max-width: 600px) {
-        margin: 5em 2em;
-        font-size: 0.9em;
+        padding: 5em 2em;
     }
 `
 
@@ -47,7 +46,7 @@ export const Text = styled.section`
 
     p {
         color: rgb(0, 26, 53);
-        font-size: 1.2em;
+        font-size: 1.25rem;
         padding-right: 4em;
     }
 
@@ -91,6 +90,10 @@ export const Text = styled.section`
         h2 {
             font-size: 2em;
         }
+
+        p {
+            font-size: 1.1rem;
+        }
     }
 
     @media ${device.mobileL} {
@@ -102,7 +105,6 @@ export const Text = styled.section`
 
         p {
             padding: 0;
-            font-size: 1.1em;
         }
     }
 `
