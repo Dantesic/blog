@@ -88,7 +88,7 @@ export const Text = styled.section`
 
     @media (max-width: 768px) {
         h2 {
-            font-size: 2em;
+            font-size: 1.8em;
         }
 
         p {

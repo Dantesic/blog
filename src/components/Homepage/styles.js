@@ -78,7 +78,7 @@ export const H1 = styled.h1`
     /* Mobile design */
     @media (max-width: 910px) {
         text-align: center;
-        font-size: 2em;
+        font-size: 1.8em;
     }
 `
 

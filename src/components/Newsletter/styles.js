@@ -31,7 +31,7 @@ export const Wrapper = styled.section`
 
     @media (max-width: 870px) {
         h1 {
-            font-size: 2em;
+            font-size: 1.8em;
             padding: 0 3em;
         }
     }
@@ -85,7 +85,7 @@ export const NewsletterWrapper = styled.section`
 
     @media (max-width: 768px) {
         h2 {
-            font-size: 2em;
+            font-size: 1.8em;
         }
 
         p {
@@ -100,7 +100,7 @@ export const NewsletterWrapper = styled.section`
         border-radius: 1em;
 
         h2 {
-            font-size: 2em;
+            font-size: 1.8em;
             margin-bottom: 0.75em;
         }
 

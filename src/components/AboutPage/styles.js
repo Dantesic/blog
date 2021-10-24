@@ -349,7 +349,7 @@ export const BusinessSection = styled.section`
         padding-bottom: 2em;
 
         h2 {
-            font-size: 2em;
+            font-size: 1.8em;
             margin-bottom: 2em;
         }
 
@@ -424,7 +424,7 @@ export const EducationSection = styled.section`
     @media (max-width: 768px) {
         h2 {
             margin: 1.5em 0;
-            font-size: 2em;
+            font-size: 1.8em;
         }
     }
 `
@@ -439,7 +439,7 @@ export const ExperienceSection = styled.section`
 
     @media (max-width: 768px) {
         h2 {
-            font-size: 2em;
+            font-size: 1.8em;
             margin: 1.5em 0;
         }
     }

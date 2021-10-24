@@ -69,7 +69,7 @@ export const Wrapper = styled.section`
 
     @media (max-width: 600px) {
         h1 {
-            font-size: 2em;
+            font-size: 1.8em;
             margin-top: 1.5em;
         }
     }

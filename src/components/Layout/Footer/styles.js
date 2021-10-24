@@ -212,7 +212,7 @@ export const Form = styled.form`
 
     @media (max-width: 850px) {
         h4 {
-            font-size: 2em;
+            font-size: 1.8em;
         }
 
         input {

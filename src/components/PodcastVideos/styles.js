@@ -42,7 +42,7 @@ export const Wrapper = styled.section`
         margin: 5em 5em;
 
         h2 {
-            font-size: 2em;
+            font-size: 1.8em;
         }
     }
 

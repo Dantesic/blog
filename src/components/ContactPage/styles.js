@@ -57,7 +57,7 @@ export const Text = styled.section`
 
         h3 {
             margin-top: 1em;
-            font-size: 2em;
+            font-size: 1.8em;
             margin-bottom: 1.5em;
         }
 

@@ -19,7 +19,7 @@ export const Wrapper = styled.section`
         padding: 4em 0;
 
         h2 {
-            font-size: 2em;
+            font-size: 1.8em;
         }
     }
 `
@@ -151,6 +151,7 @@ export const Contact = styled.section`
             padding: 0 0.5em;
             margin-top: 2.5em;
             margin-bottom: 1em;
+            font-size: 1.8em;
         }
     }
 `
