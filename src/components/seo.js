@@ -3,6 +3,7 @@ import React from "react"
 import PropTypes from "prop-types"
 import { Helmet } from "react-helmet"
 import { useStaticQuery, graphql } from "gatsby"
+import { getImage } from "gatsby-plugin-image"
 
 const SEO = ({ description, lang, meta, title, postImg, slug }) => {
   const data = useStaticQuery(
@@ -26,7 +27,7 @@ const SEO = ({ description, lang, meta, title, postImg, slug }) => {
   )
 
   const metaDescription = description || data.site.siteMetadata.description
-  const defaultImage = data.defaultImage
+  const defaultImage = getImage(data.defaultImage)
   const imgThumbnail = postImg || defaultImage
   const siteUrl = data.site.siteMetadata.siteUrl
   const url = `${siteUrl}${slug}`
@@ -37,7 +38,7 @@ const SEO = ({ description, lang, meta, title, postImg, slug }) => {
         lang,
       }}
       title={title}
-      titleTemplate={`%s | ${data.site.siteMetadata.author}`}
+      titleTemplate={`${data.site.siteMetadata.author} | %s`}
       meta={[
         {
           name: `description`,

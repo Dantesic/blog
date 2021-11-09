@@ -15,7 +15,7 @@ const Index = () => {
   return (
     <>
       <Seo
-        title={"Pričajmo o novcu"}
+        title={"Dorian Antešić | Economist, Investor & Consultant"}
         description={
           "Učimo o novcu kako bi stvorili bogatstvo za buduće generacije. Blog o financijama i ekonomiji. Edukativni sadržaj o ulaganju i osobnim financijama."
         }

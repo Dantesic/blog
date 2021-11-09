@@ -39,8 +39,6 @@ const BlogPage = () => {
     // Array of all news articles
     const allPosts = data.allMarkdownRemark.edges
 
-    console.log(allPosts)
-
     // State for the list
     const [list, setList] = useState([...allPosts.slice(0, 6)])
 

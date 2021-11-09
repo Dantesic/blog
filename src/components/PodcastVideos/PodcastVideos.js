@@ -25,7 +25,6 @@ const PodcastVideos = () => {
         const fetch = async () => {
             const response = await youtube.get('/search')
             allVideos.current = response;
-            console.log(allVideos.current.data.items.slice(0, 6))
             setList([...allVideos.current.data.items.slice(0, 6)])
             setHasMore(allVideos.current.data.items.length > 6)
             setIsLoading(false);
