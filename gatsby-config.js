@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Pričajmo o novcu`,
+    title: `Dorian Antešić | Economist, Investor & Consultant`,
     author: `Dorian Antešić`,
     description: `Blog o financijama i ekonomiji`,
     siteUrl: `https://antesic.com`,
