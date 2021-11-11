@@ -7,15 +7,18 @@ import MobileNav from '../components/Layout/MobileNav/MobileNav'
 import Footer from '../components/Layout/Footer/Footer'
 
 import { graphql } from "gatsby"
+import { getSrc } from "gatsby-plugin-image"
 
 const BlogPostTemplate = ({ data }) => {
   const post = data.markdownRemark
+  const postImgSrc = getSrc(post.frontmatter.thumbnail)
 
   return (
     <>
       <Seo
         title={post.frontmatter.title}
         description={post.frontmatter.description || post.excerpt}
+        postImg={postImgSrc}
       />
       <DesktopNav />
       <MobileNav />
@@ -55,6 +58,11 @@ export const pageQuery = graphql`
         date(formatString: "DD MMMM, YYYY", locale: "hr")
         author
         description
+        thumbnail {
+          childImageSharp {
+            gatsbyImageData
+          }
+        }
       }
     }
   }
