@@ -10,9 +10,9 @@ const Blog = () => {
   return (
     <>
       <Seo
-        title={"Pričajmo o novcu"}
+        title={"Learn "}
         description={
-          "Učimo o novcu kako bi stvorili bogatstvo za buduće generacije. Blog o financijama i ekonomiji. Edukativni sadržaj o ulaganju i osobnim financijama."
+          "Learn how to become a strong human and build Family Wealth. Topics covered: Crypto, Finance, Economics, and Philosophy."
         }
       />
       <DesktopNav />

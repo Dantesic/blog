@@ -35,7 +35,6 @@ export const Text = styled.section`
     p {
         width: 100% !important;
         text-align: start !important;
-        font-size: 0.82em !important;
         color: rgb(0, 26, 53) !important;
         margin-bottom: 0.5em !important;
         /* limited to 4 lines of text */

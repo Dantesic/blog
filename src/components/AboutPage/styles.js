@@ -61,7 +61,6 @@ export const Introduction = styled.section`
 
     @media (max-width: 600px) {
         padding: 0 3em;
-        font-size: 0.9em;
 
         h2 {
             font-size: 1.4em;

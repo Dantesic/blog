@@ -24,12 +24,7 @@ export const Wrapper = styled.section`
     }
 
     @media (max-width: 768px) {
-        font-size: 0.8em;
         padding-top: 3em;
-    }
-
-    @media (max-width: 600px) {
-        /* font-size: 0.7em; */
     }
 `
 

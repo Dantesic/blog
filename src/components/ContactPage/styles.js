@@ -158,13 +158,4 @@ export const Button = styled.button`
         cursor: pointer;
         box-shadow: 0 0 0 2px #55C0E0 inset;
     }
-
-    @media (max-width: 768px) {
-        font-size: 0.9em;
-    }
-
-    @media (max-width: 420px) {
-        font-size: 0.9em !important;
-        padding: 0.5em 2.2em !important;
-    }
 `

@@ -33,8 +33,8 @@ export const Wrapper = styled.section`
         margin-bottom: 3em;
 
          div {
-             font-size: 0.9em;
-             padding: 0.9em 2.5em;
+            font-size: 0.9em;
+            padding: 0.9em 2.5em;
          }
     }
 

@@ -10,9 +10,9 @@ const Media = () => {
   return (
     <>
       <Seo
-        title={"Pričajmo o novcu"}
+        title={"Newsletter "}
         description={
-          "Učimo o novcu kako bi stvorili bogatstvo za buduće generacije. Blog o financijama i ekonomiji. Edukativni sadržaj o ulaganju i osobnim financijama."
+          "A newsletter focused on building Family Wealth. I send private emails with the aim of building a strong human and through that - Family Wealth. Finance, Economics & Philosophy."
         }
       />
       <DesktopNav />

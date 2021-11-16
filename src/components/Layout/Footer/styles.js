@@ -75,7 +75,6 @@ export const Navbar = styled.nav`
     align-items: center;
 
     a {
-        font-size: 0.9em;
         color: #FFFFFF;
         margin-left: 1em;
         padding: 0 0.6em;
@@ -155,10 +154,6 @@ export const ButtonLink = styled.div`
         width: max-content;
         justify-self: center;
         font-size: 1.1em;
-    }
-
-    @media (max-width: 600px) {
-        font-size: 0.95em;
     }
 `
 export const AntesicSVG = styled.div`
@@ -265,11 +260,10 @@ export const SocialMedia = styled.section`
     h6 {
         grid-area: title;
         margin-bottom: 2em;
-        font-size: 0.9em;
+        font-size: 1em;
     }
 
     @media (max-width: 850px) {
-        font-size: 0.9em;
         align-items: center;
         grid-template-areas:
         "title linkedin youtube";
@@ -302,7 +296,7 @@ export const Linkedin = styled.div`
     }
 
     @media (max-width: 850px) {
-        font-size: 0.8em;
+        font-size: 0.9em;
     }
 `
 
@@ -328,20 +322,19 @@ export const Youtube = styled.div`
     }
 
     @media (max-width: 850px) {
-        font-size: 0.8em;
+        font-size: 0.9em;
     }
 `
 
 export const Email = styled.section`
 
     h6 {
-        font-size: 0.9em;
-        margin-bottom: 2em;
+        font-size: 1em;
+        margin-bottom: 1.3em;
     }
 
     a {
         color: #FFFFFF;
-        font-size: 0.8em;
     }
 
     a:hover {
@@ -349,7 +342,6 @@ export const Email = styled.section`
     }
 
     @media (max-width: 850px) {
-        font-size: 0.9em;
         h6 {
             margin-bottom: 0.5em;
         }

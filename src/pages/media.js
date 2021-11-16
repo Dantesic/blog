@@ -10,9 +10,9 @@ const Media = () => {
   return (
     <>
       <Seo
-        title={"Pričajmo o novcu"}
+        title={"Media"}
         description={
-          "Učimo o novcu kako bi stvorili bogatstvo za buduće generacije. Blog o financijama i ekonomiji. Edukativni sadržaj o ulaganju i osobnim financijama."
+          "Media coverings of Dorian Antešić. Interviews, articles, and appearances. "
         }
       />
       <DesktopNav />
