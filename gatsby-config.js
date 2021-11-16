@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Dorian Antešić | Economist, Investor & Consultant`,
+    title: `Economist, Investor & Consultant`,
     author: `Dorian Antešić`,
-    description: `Blog o financijama i ekonomiji`,
+    description: `Dorian Antešić is an economist, investor & consultant focused on building a strong human and through that -  Family Wealth. Research fields: Crypto, Family Wealth and Philosophy.`,
     siteUrl: `https://antesic.com`,
   },
   plugins: [
