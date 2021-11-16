@@ -8,6 +8,7 @@ export const Header = styled.header`
     align-items: center;
     padding: 3.5em 8em;
     background-color: #001A35;
+    z-index: 5;
 
     @media (min-width: 1024px) {
         display: flex;
@@ -20,7 +21,25 @@ export const Header = styled.header`
     @media (max-width: 1300px) {
         padding: 3.5em 4em;
     }
+
+    ${({ scrolled }) => scrolled && `
+        position: fixed;
+    `}
 `
+export const HeightDiv = styled.div`
+    background-color: #001A35;
+    height: 6em;
+    display: none;
+
+    ${({ scrolled }) => scrolled && `
+        display: block;
+
+        @media (max-width: 1024px) {
+            display: none;
+        }
+    `}
+`
+
 export const NavbarLeft = styled.nav`
     display: flex;
     align-items: center;
