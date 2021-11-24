@@ -1,5 +1,5 @@
 ---
-title: Čuvajte se lihvara - Facebook stranice za kredit
+title: Čuvajte se lihvara - Facebook stranice za kredit | Dorian Antešić
 author: Dorian Antešić
 date: "2020-12-24"
 description: Zbog loše ekonomske situacije u državi, mnogo ljudi je prisiljeno financijsku pomoć potražiti kod neprovjerenih i nelegalnih osoba koja obećavaju niske kamatne stope i visoki iznos dostupnog kapitala. Pazite se tih osoba! 

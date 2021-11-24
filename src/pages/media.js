@@ -10,7 +10,7 @@ const Media = () => {
   return (
     <>
       <Seo
-        title={"Media"}
+        title={"Media | Dorian Antešić"}
         description={
           "Media coverings of Dorian Antešić. Interviews, articles, and appearances. "
         }

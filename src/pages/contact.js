@@ -10,7 +10,7 @@ const Blog = () => {
   return (
     <>
       <Seo
-        title={"Contact"}
+        title={"Contact | Dorian Antešić"}
         description={
           "Contact of Dorian Antešić. Send a question or a business proposal."
         }

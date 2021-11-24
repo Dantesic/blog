@@ -1,5 +1,5 @@
 ---
-title: Investicija ili kredit? Koji izvor financiranja je najbolji za poduzeće
+title: Investicija ili kredit? Koji izvor financiranja je najbolji za poduzeće | Dorian Antešić
 author: Dorian Antešić
 date: "2020-11-08"
 description: Investicija od fonda ili privatne osobe i kreditiranje od banke predstavljaju dvije vrste financiranja poduzeća ili projekta - financiranje uz predaju vlasničkog udjela i zaduživanje uz plaćanje kamate. Ova dva načina stavlja se u istu poziciju u pitanju kako financirati poslovni pothvat, ali kroz tekst ćemo objasniti da ta dva načina nije poželjno ili uopće moguće koristiti za iste stvari. 

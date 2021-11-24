@@ -10,7 +10,7 @@ const About = () => {
   return (
     <>
       <Seo
-        title={"About"}
+        title={"About | Dorian Antešić"}
         description={
           "Dorian Antešić is an economist, investor & consultant focused on building a strong human and through that - Family Wealth. Research fields: Crypto, Family Wealth and Philosophy."
         }

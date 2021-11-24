@@ -1,5 +1,5 @@
 ---
-title: Kako napraviti budžet i početi štedjeti - Osobne financije
+title: Kako napraviti budžet i početi štedjeti - Osobne financije | Dorian Antešić
 author: Dorian Antešić
 date: "2020-09-28"
 description: Budžetiranje vlastitih prihoda i rashoda te štednja vrlo su važan aspekt unutar osobnih financija. Predstavljaju temelj na kojem ćemo graditi naše financijsko stanje. Dobro napravljen budžet kojeg se držimo i marljiva štednja povećat će naše blagostanje i učiti našu financijsku sliku zdravom.

@@ -15,7 +15,7 @@ const Index = () => {
   return (
     <>
       <Seo
-        title={"Economist, Investor & Consultant"}
+        title={"Dorian Antešić | Economist, Investor & Consultant"}
         description={
           "Dorian Antešić is an economist, investor & consultant focused on building a strong human and through that -  Family Wealth. Research fields: Crypto, Family Wealth and Philosophy."
         }

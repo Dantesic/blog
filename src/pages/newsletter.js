@@ -10,7 +10,7 @@ const Media = () => {
   return (
     <>
       <Seo
-        title={"Newsletter "}
+        title={"Newsletter | Dorian Antešić"}
         description={
           "A newsletter focused on building Family Wealth. I send private emails with the aim of building a strong human and through that - Family Wealth. Finance, Economics & Philosophy."
         }

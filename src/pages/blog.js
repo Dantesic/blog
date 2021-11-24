@@ -10,7 +10,7 @@ const Blog = () => {
   return (
     <>
       <Seo
-        title={"Learn "}
+        title={"Learn | Dorian Antešić"}
         description={
           "Learn how to become a strong human and build Family Wealth. Topics covered: Crypto, Finance, Economics, and Philosophy."
         }

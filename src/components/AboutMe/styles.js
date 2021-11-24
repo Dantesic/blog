@@ -50,12 +50,6 @@ export const Text = styled.section`
         padding-right: 4em;
     }
 
-    span {
-        color: rgb(0, 26, 53);
-        font-size: 1.2em;
-        margin-bottom: 0;
-    }
-
     @media (max-width: 1400px) {
         h2 {
             margin-bottom: 1em;

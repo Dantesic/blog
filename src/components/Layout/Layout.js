@@ -9,7 +9,7 @@ const Layout = ({ children }) => {
     <>
       <MobileNav />
       <DesktopNav />
-      <main>{children}</main>
+        <main>{children}</main>
       <Footer />
     </>
   )

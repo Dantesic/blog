@@ -1,5 +1,5 @@
 ---
-title: Ulaganje u zlato - plemeniti metali
+title: Ulaganje u zlato - plemeniti metali | Dorian Antešić
 author: Marin Franelić
 date: "2020-10-19"
 description: Pred više od 100 godina američki investitor i bankar John Morgan rekao je „zlato je novac, sve ostalo je dug“. Što je pod time mislio i zašto (ne) ulagati u zlato pročitajte u nastavku.

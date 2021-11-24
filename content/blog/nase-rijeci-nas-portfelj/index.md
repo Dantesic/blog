@@ -1,5 +1,5 @@
 ---
-title: Naše riječi = naš portfelj
+title: Naše riječi = naš portfelj | Dorian Antešić
 author: Dorian Antešić
 date: "2020-12-16"
 description: Prilikom investiranja, investitor bi trebao dobro analizirati poziciju koju misli uzeti u odnosu na imovinu - kupnja ili prodaja. Dok analizira on čita razne materijale kako bi došao do zaključka. Osim svojih analiza, on proučava sadržaj drugih investitora. Što pričaju i pišu, ali ponajviše - što rade sa svojim novcem. Upravo o činjenju s novcem ovdje ću se koncentrirati da obrazložim svoje stavove prema ljudima/investitorima i onome što oni pričaju.

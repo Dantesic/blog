@@ -1,5 +1,5 @@
 ---
-title: Zašto je nastao blog Pričajmo o novcu
+title: Zašto je nastao blog Pričajmo o novcu | Dorian Antešić
 author: Dorian Antešić
 date: "2020-09-15"
 description: Ideja da se pokrene jedan ovakav financijski blog bila je prisutna i prije Covid-19 krize, ali događaji koji su naslijedili nakon veljače 2020. samo su pokazali da je blog potreban hrvatskom tržištu.

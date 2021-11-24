@@ -5,7 +5,7 @@ import Seo from '../components/seo'
 import DesktopNav from '../components/Layout/DesktopNav/DesktopNav'
 import MobileNav from '../components/Layout/MobileNav/MobileNav'
 import Footer from '../components/Layout/Footer/Footer'
-
+ 
 import { graphql } from "gatsby"
 import { getSrc } from "gatsby-plugin-image"
 

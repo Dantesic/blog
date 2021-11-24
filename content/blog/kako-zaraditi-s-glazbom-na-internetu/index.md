@@ -1,5 +1,5 @@
 ---
-title: Kako zaraditi s glazbom na internetu
+title: Kako zaraditi s glazbom na internetu | Dorian Antešić
 author: Andrian Nimac
 date: "2020-09-16"
 description: Sve se više glazbenika i stvaratelja okreću internetu kako bi zaraditi novac za život. Ovaj članak će objasniti neke načine na koji se može zaraditi malo love „sa strane“, pa čak i cijelu plaću Vašom glazbom preko interneta.

@@ -1,5 +1,5 @@
 ---
-title: Nanobit - slavimo optimizam i želju želju za uspjehom
+title: Nanobit - slavimo optimizam i želju želju za uspjehom | Dorian Antešić
 author: Dorian Antešić
 date: "2020-09-18"
 description: Osim povećanja državnog kredibiliteta kod investitora, Nanobitov uspjeh dati će poticaj hrvatskim start-upovima jer su pokazali da se i odavde može napraviti veliki “exit”, tj. prodaja vlastitog poduzeća. Nije nužno da se ide izvan domovine kako bi se osigurala mogućnost za uspješnu prodaju poduzeća u budućnosti.

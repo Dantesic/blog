@@ -1,5 +1,5 @@
 ---
-title: Hrvatski mirovinski sustav NIJE održiv - analiza i smjernice
+title: Hrvatski mirovinski sustav NIJE održiv - analiza i smjernice | Dorian Antešić
 author: Dorian Antešić
 date: "2020-09-26"
 description: Hrvatski mirovinski sustav temeljen na međugeneracijskoj solidarnosti nije održiv te je potrebna izmjena modela i prelazak na individualnu kapitaliziranu štednju.

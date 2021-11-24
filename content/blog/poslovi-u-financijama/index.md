@@ -1,5 +1,5 @@
 ---
-title: Poslovi u financijama - pripremanje za budućnost financija
+title: Poslovi u financijama - pripremanje za budućnost financija | Dorian Antešić
 author: Dorian Antešić
 date: "2020-09-01"
 description: Financije kao i svaka druga funkcija u poduzeću prolazi kroz svoje promjene. Tehnološki napredak, nove stvari, modeli i načini poslovanja nisu i ne mogu zaobići financije niti poslove koji spadaju pod njom. Budući poslovi u financijama, uloga financijaša u poduzeću i potrebne vještine koje će financijaši morati svladati bitno će utjecati na uspjeh pojedinca i organizacije u kojoj se on nalazi.
