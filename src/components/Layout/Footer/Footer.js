@@ -50,7 +50,7 @@ const Footer = () => {
             <Form autoComplete="off">
                 <h4>Join my newsletter</h4>
                 <input type="text" placeholder="Your name" name="name" required />
-                <input type="text" placeholder="Your e-mail address" name="mail" required />
+                <input type="text" placeholder="Your best e-mail address" name="mail" required />
                 <FormButton type="submit">Subscribe</FormButton>
             </Form>
             <Social>

@@ -30,7 +30,7 @@ const BlogPage = () => {
                 </label>
                 <label>
                     <strong>Where should I send the Newsletter?</strong>
-                    <input type="email" name="email" placeholder="Your e-mail address" id="email" required/>
+                    <input type="email" name="email" placeholder="Your best e-mail address" id="email" required/>
                 </label>
                 <Button type="submit">Subscribe</Button>
             </Form>

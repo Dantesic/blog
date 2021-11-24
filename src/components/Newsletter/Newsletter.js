@@ -19,7 +19,7 @@ const Newsletter = () => {
                 <p>Subscribe and receive directly to your inbox materials that will enhance your personal and professional life.</p>
                 <Form autoComplete="off" onSubmit={handleSubmit}>
                     <input type="text" placeholder="Your name" name="name" id="name" required />
-                    <input type="text" placeholder="Your e-mail address" name="mail" id="email" required />
+                    <input type="text" placeholder="Your best e-mail address" name="mail" id="email" required />
                     <Button type="submit">Subscribe</Button>
                 </Form>
             </NewsletterWrapper>
