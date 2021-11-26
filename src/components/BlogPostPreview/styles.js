@@ -43,6 +43,7 @@ export const Text = styled.section`
         text-overflow: ellipsis !important;
         overflow: hidden !important;
         word-wrap: break-word !important;
+        font-size: 1em !important;
     }
 
     @media (max-width: 1200px) {
@@ -60,10 +61,6 @@ export const Text = styled.section`
 
         h3 {
             font-size: 1.5rem;
-        }
-
-        p {
-            font-size: 0.9em;
         }
     }
 
