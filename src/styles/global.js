@@ -5,7 +5,6 @@ export const Button = styled.div`
     background: #55C0E0;
     border-radius: 0.8rem !important;
     padding: 0.7rem 1rem !important;
-    margin-left: 1em;
 
     a {
         color: #FFFFFF;

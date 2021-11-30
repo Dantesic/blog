@@ -89,7 +89,7 @@ export const Buttons = styled.section`
         color: #55C0E0;
         background-color: #FFFFFF;
         box-shadow: 0 0 0 2px #55C0E0 inset;
-        margin-right: 0;
+        margin-right: 1em;
 
         :hover {
             background-color: #55C0E0;
@@ -127,6 +127,7 @@ export const Buttons = styled.section`
 
         div:first-child {
             margin-bottom: 1em;
+            margin-right: 0;
         }
 
         div:last-child {
