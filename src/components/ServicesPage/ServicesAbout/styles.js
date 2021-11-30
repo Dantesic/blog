@@ -25,6 +25,10 @@ export const Wrapper = styled.section`
             font-size: 1.8em;
         }
 
+        p {
+            font-size: 1.1rem;
+        }
+
         margin: 5em 2em;
     }
 

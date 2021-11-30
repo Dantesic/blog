@@ -100,6 +100,12 @@ export const Bullet = styled.section`
         }
     }
 
+    @media (max-width: 768px) {
+        p {
+            font-size: 1.1rem;
+        }
+    }
+
     @media (max-width: 600px) {
         p {
             padding: 0 2em;

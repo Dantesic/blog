@@ -24,6 +24,12 @@ export const Wrapper = styled.section`
         margin-bottom: 2.5em;
     }
 
+    @media (max-width: 768px) {
+        p {
+            font-size: 1.1rem;
+        }
+    }
+
     @media (max-width: 500px) {
         br {
             display: none;
@@ -53,5 +59,9 @@ export const ArrowSVG = styled.div`
 
     :hover {
         cursor: pointer;
+    }
+
+    @media (max-width: 768px) {
+        display: none;
     }
 `
