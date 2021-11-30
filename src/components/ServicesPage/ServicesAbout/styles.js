@@ -10,6 +10,7 @@ export const Wrapper = styled.section`
     h2 {
         color: #001A35;
         font-size: 2.2em;
+        text-align: center;
     }
 
     p {
@@ -23,5 +24,11 @@ export const Wrapper = styled.section`
         h2 {
             font-size: 1.8em;
         }
+
+        margin: 5em 2em;
+    }
+
+    @media (max-width: 370px) {
+        margin: 5em 1em;
     }
 `

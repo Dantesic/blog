@@ -121,7 +121,6 @@ export const FollowMeSection = styled.section`
         "follow-text"
         "follow-img";
     }
-
 `
 
 export const Social = styled.section`
@@ -145,12 +144,22 @@ export const Social = styled.section`
         justify-content: center;
     }
 
-    @media (max-width: 450px) {
-        padding: 2em 0;
-    }
-
     @media (max-width: 600px) {
         font-size: 0.8em;
+        display: grid;
+        grid-template-areas: 
+        "title title title title"
+        "linkedin youtube twitter instagram";
+
+        h2 {
+            grid-area: title;
+            text-align: center;
+            margin-bottom: 1em;
+        }
+    }
+
+    @media (max-width: 450px) {
+        padding: 2em 0;
     }
 
     @media (max-width: 350px) {
@@ -204,9 +213,49 @@ export const Youtube = styled.div`
         justify-self: center;
         color: #001A35;
     }
+`
 
-    @media (max-width: 450px) {
-        
+export const Twitter = styled.div`
+    grid-area: twitter;
+    background-color: #55C0E0;
+    width: 2.8em;
+    height: 2.8em;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1em;
+    transition: 500ms;
+
+    :hover {
+        transform: scale(1.1);
+    }
+
+    * {
+        justify-self: center;
+        color: #001A35;
+    }
+`
+
+export const Instagram = styled.div`
+    grid-area: instagram;
+    background-color: #55C0E0;
+    width: 2.8em;
+    height: 2.8em;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1em;
+    transition: 500ms;
+
+    :hover {
+        transform: scale(1.1);
+    }
+
+    * {
+        justify-self: center;
+        color: #001A35;
     }
 `
 

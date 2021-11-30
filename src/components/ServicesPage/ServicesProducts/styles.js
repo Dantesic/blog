@@ -21,7 +21,6 @@ export const Wrapper = styled.section`
 
     @media (max-width: 1050px) {
         padding: 5em 2em;
-        padding-bottom: 1em;
     }
 
     @media (max-width: 768px) {
@@ -39,6 +38,10 @@ export const BulletWrapper = styled.section`
     @media (max-width: 1050px) {
         flex-direction: column;
         height: 100%;
+
+        > section:not(:first-child) {
+            margin-top: 4em;
+        }
     }
 `
 
@@ -53,7 +56,7 @@ export const Bullet = styled.section`
 
     h3 {
         color: #001A35;
-        font-size: 1.6em;
+        font-size: 1.8em;
         font-weight: 600;
         margin-top: 1.2em;
         margin-bottom: 1em;
@@ -72,16 +75,28 @@ export const Bullet = styled.section`
         margin-bottom: 2em;
     }
 
+    @media (max-width : 1450px) {
+        p {
+            min-height: 10.4em;
+            margin-bottom: 1em;
+        }
+    }
+
     @media (max-width: 1050px) {
+        h3 {
+            min-height: 0;
+        }
+
         p {
             padding: 0 8em;
+            min-height: 0;
+            margin-bottom: 2em;
         }
     }
 
     @media (max-width: 800px) {
         p {
             padding: 0 5em;
-            font-size: 1.1rem;
         }
     }
 
@@ -92,13 +107,9 @@ export const Bullet = styled.section`
     }
 
     @media (max-width: 500px) {
-        h3 {
-            font-size: 1.7em;
-        }
 
         p {
             padding: 0;
-            margin-bottom: 1em;
         }
     }
 `

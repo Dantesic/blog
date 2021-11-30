@@ -24,21 +24,25 @@ export const Wrapper = styled.section`
         margin-bottom: 2.5em;
     }
 
-    @media (max-width: 1330px) {
+    @media (max-width: 500px) {
+        br {
+            display: none;
+        }
+
+        padding: 0 2em;
+    }
+
+    @media (max-width: 420px) {
+        padding: 0 2em;
+
         h1 {
-            font-size: 2.8em;
+            font-size: 2.5em;
         }
     }
 
-    @media (max-width: 1220px) {
+    @media (max-width: 360px) {
         h1 {
-            font-size: 2.4em; 
-        }
-    }
-
-    @media (max-width: 768px) {
-        h1 {
-            font-size: 1.8em;
+            font-size: 2.2em;
         }
     }
 `

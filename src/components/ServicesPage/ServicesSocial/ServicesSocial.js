@@ -18,31 +18,31 @@ const ServicesSocial = () => {
                 </a>
             </Linkedin>
             <Youtube>
-                    <a
-                        href="https://www.youtube.com/channel/UCptUiwBhO4MfBPiVolHEgkw"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
-                        <FontAwesomeIcon size={'2x'} icon={["fab", "youtube"]} />
-                    </a>
+                <a
+                    href="https://www.youtube.com/channel/UCptUiwBhO4MfBPiVolHEgkw"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    <FontAwesomeIcon size={'2x'} icon={["fab", "youtube"]} />
+                </a>
             </Youtube>
             <Twitter>
-                    <a
-                        href="https://www.youtube.com/channel/UCptUiwBhO4MfBPiVolHEgkw"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
-                        <FontAwesomeIcon size={'2x'} icon={["fab", "twitter"]} />
-                    </a>
+                <a
+                    href="https://www.youtube.com/channel/UCptUiwBhO4MfBPiVolHEgkw"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    <FontAwesomeIcon size={'2x'} icon={["fab", "twitter"]} />
+                </a>
             </Twitter>
             <Instagram>
-                    <a
-                        href="https://www.youtube.com/channel/UCptUiwBhO4MfBPiVolHEgkw"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
-                        <FontAwesomeIcon size={'2x'} icon={["fab", "instagram"]} />
-                    </a>
+                <a
+                    href="https://www.youtube.com/channel/UCptUiwBhO4MfBPiVolHEgkw"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    <FontAwesomeIcon size={'2x'} icon={["fab", "instagram"]} />
+                </a>
             </Instagram>
         </Wrapper>
     )

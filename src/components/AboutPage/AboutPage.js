@@ -1,5 +1,5 @@
 import React from 'react'
-import { Wrapper, ImgWrapper, Introduction, ArrowSVG, Quote, FollowMeSection, Social, Linkedin, Youtube, FollowMeText, FollowMeImgWrapper, BusinessSection, Business1, Business2, Business3, EducationSection, ExperienceSection, Grid } from './styles'
+import { Wrapper, ImgWrapper, Introduction, ArrowSVG, Quote, FollowMeSection, Social, Linkedin, Youtube, Twitter, Instagram, FollowMeText, FollowMeImgWrapper, BusinessSection, Business1, Business2, Business3, EducationSection, ExperienceSection, Grid } from './styles'
 
 import EducationField from './EducationField/EducationField'
 import ExperienceField from './ExperienceField/ExperienceField'
@@ -93,6 +93,24 @@ const AboutPage = () => {
                                     <FontAwesomeIcon size={'2x'} icon={["fab", "youtube"]} />
                                 </a>
                         </Youtube>
+                        <Twitter>
+                                <a
+                                    href="https://www.youtube.com/channel/UCptUiwBhO4MfBPiVolHEgkw"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    <FontAwesomeIcon size={'2x'} icon={["fab", "twitter"]} />
+                                </a>
+                        </Twitter>
+                        <Instagram>
+                                <a
+                                    href="https://www.youtube.com/channel/UCptUiwBhO4MfBPiVolHEgkw"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    <FontAwesomeIcon size={'2x'} icon={["fab", "instagram"]} />
+                                </a>
+                        </Instagram>
                     </Social>
                     <FollowMeText>
                         <p>Dorian Antešić holds a BSc in Finance and Accounting and MSc in Finance and Banking.</p>

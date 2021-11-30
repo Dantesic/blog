@@ -11,6 +11,8 @@ export const Wrapper = styled.section`
     }
 
     @media (max-width: 768px) {
+        padding: 0em 1em;
+
         h2 {
             font-size: 1.8em;
         }
@@ -21,8 +23,28 @@ export const Sponsors = styled.section`
     justify-content: center;
     align-items: center;
     gap: 6em;
+
+    @media (max-width: 1300px) {
+        gap: 4em;
+    }
+
+    @media (max-width: 500px) {
+        gap: 2em;
+    }
 `
 
 export const IconWrapper = styled.div`
     width: 20em;
+
+    @media (max-width: 1300px) {
+        width: 15em;
+    }
+
+    @media (max-width: 768px) {
+        width: 10em;
+    }
+
+    @media (max-width: 500px) {
+        width: 8em;
+    }
 `
