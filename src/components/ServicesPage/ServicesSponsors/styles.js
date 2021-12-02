@@ -15,7 +15,7 @@ export const Wrapper = styled.section`
 
         h2 {
             font-size: 1.5em;
-            margin-bottom: 1.5em;
+            margin-bottom: 2.5em;
         }
     }
 `
@@ -29,7 +29,8 @@ export const Sponsors = styled.section`
         gap: 4em;
     }
 
-    @media (max-width: 500px) {
+    @media (max-width: 768px) {
+        flex-direction: column;
         gap: 2em;
     }
 `
@@ -42,10 +43,6 @@ export const IconWrapper = styled.div`
     }
 
     @media (max-width: 768px) {
-        width: 10em;
-    }
-
-    @media (max-width: 500px) {
-        width: 8em;
+        width: 13em;
     }
 `

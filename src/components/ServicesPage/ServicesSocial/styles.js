@@ -18,13 +18,19 @@ export const Wrapper = styled.section`
         text-align: center;
     }
 
+    @media (min-width: 768px) {
+        br {
+            display: none;
+        }
+    }
+
     @media (max-width: 600px) {
         display: grid;
         grid-template-areas: 
         "title title title title"
         "linkedin youtube twitter instagram";
-        column-gap: 0;
         padding: 2em 1em;
+        column-gap: 1em;
 
         h2 {
             grid-area: title;
@@ -55,6 +61,10 @@ export const Linkedin = styled.div`
         justify-self: center;
         color: #001A35;
     }
+
+    @media (max-width: 768px) {
+        font-size: 0.9em;
+    }
 `
 
 export const Youtube = styled.div`
@@ -78,6 +88,10 @@ export const Youtube = styled.div`
         justify-self: center;
         color: #001A35;
     }
+
+    @media (max-width: 768px) {
+        font-size: 0.9em;
+    }
 `
 export const Twitter = styled.div`
     grid-area: twitter;
@@ -99,6 +113,10 @@ export const Twitter = styled.div`
     * {
         justify-self: center;
         color: #001A35;
+    }
+
+    @media (max-width: 768px) {
+        font-size: 0.9em;
     }
 `
 
@@ -122,5 +140,9 @@ export const Instagram = styled.div`
     * {
         justify-self: center;
         color: #001A35;
+    }
+
+    @media (max-width: 768px) {
+        font-size: 0.9em;
     }
 `

@@ -190,7 +190,7 @@ export const Linkedin = styled.div`
     }
 
     @media (max-width: 768px) {
-        justify-self: flex-end;
+        font-size: 0.9em;
     }
 `
 
@@ -214,6 +214,10 @@ export const Youtube = styled.div`
         justify-self: center;
         color: #001A35;
     }
+
+    @media (max-width: 768px) {
+        font-size: 0.9em;
+    }
 `
 
 export const Twitter = styled.div`
@@ -236,6 +240,10 @@ export const Twitter = styled.div`
         justify-self: center;
         color: #001A35;
     }
+
+    @media (max-width: 768px) {
+        font-size: 0.9em;
+    }
 `
 
 export const Instagram = styled.div`
@@ -257,6 +265,10 @@ export const Instagram = styled.div`
     * {
         justify-self: center;
         color: #001A35;
+    }
+
+    @media (max-width: 768px) {
+        font-size: 0.9em;
     }
 `
 

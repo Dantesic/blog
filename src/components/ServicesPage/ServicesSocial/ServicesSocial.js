@@ -7,7 +7,7 @@ import "../../../utils/fontawesome"
 const ServicesSocial = () => {
     return (
         <Wrapper>
-            <h2>Follow me on social media</h2>
+            <h2>Follow me on<br/> social media</h2>
             <Linkedin>
                 <a
                     href="https://www.linkedin.com/in/dorianantesic/"

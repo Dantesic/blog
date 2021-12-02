@@ -58,10 +58,7 @@ export const Bullet = styled.section`
         color: #001A35;
         font-size: 1.8em;
         font-weight: bold;
-        margin-top: 1.2em;
-        margin-bottom: 1em;
         text-align: center;
-        min-height: 2.2em;
     }
     
     p {
@@ -140,7 +137,10 @@ export const IconWrapper = styled.div`
 
 export const TitleWrapper = styled.div`
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     min-height: 2.2em;
+    margin-top: 3em;
+    margin-bottom: 3em;
 `
