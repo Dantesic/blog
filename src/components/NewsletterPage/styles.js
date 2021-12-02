@@ -106,7 +106,7 @@ export const Form = styled.form`
         padding: 0.7rem 1rem !important;
         display: flex;
         width: 70%;
-        margin: 0 auto;
+        margin: 1em auto;
         margin-bottom: 1em;
         font-size: 1rem;
 
@@ -144,7 +144,7 @@ export const Button = styled.button`
     color: #FFFFFF !important;
     background: #55C0E0 !important;
     margin: 0 auto;
-    margin-top: 1.5em !important;
+    margin-top: 0.75em !important;
     border-radius: 0.8rem !important;
     padding: 0.7rem 1rem !important;
     width: fit-content !important;

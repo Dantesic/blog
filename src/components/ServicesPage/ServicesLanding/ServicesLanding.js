@@ -10,7 +10,7 @@ const ServicesLanding = () => {
         <Wrapper>
             <h1>Transition from<br/> <span>fiat to bitcoin<br/> standard</span></h1>
             <p>If you want to learn how to plug into to the new<br/> monetary system, benefit from it and build a<br/> better future for you family, let’s talk.</p>
-            <Button>Show More</Button>
+            <Button><ScrollLink to="services-about-section" spy={true} smooth={true}>Show More</ScrollLink></Button>
             <ScrollLink to="services-about-section" spy={true} smooth={true}>
                 <ArrowSVG>
                     <StaticImage

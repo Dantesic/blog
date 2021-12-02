@@ -52,8 +52,8 @@ const DesktopNav = () => {
                     <Link to="/newsletter">
                         <BlueLink>Newsletter</BlueLink>
                     </Link>
-                    <Link to="/podcast">
-                        <BlueLink>Pričajmo o novcu</BlueLink>
+                    <Link to="/services">
+                        <BlueLink>Services</BlueLink>
                     </Link>
                 </NavbarRight>
             </Header>

@@ -10,8 +10,8 @@ const ServicesSponsors = () => {
             <Sponsors>
                 <IconWrapper>
                     <StaticImage
-                        src="../../../assets/images/uniri.png"
-                        alt="Dorian Antesic profile"
+                        src="../../../assets/images/saifedean-ammous.png"
+                        alt="Saifedean Ammous logo"
                         loading="eager"
                         placeholder="blurred"
                         layout="constrained"
@@ -19,8 +19,8 @@ const ServicesSponsors = () => {
                 </IconWrapper>
                 <IconWrapper>
                     <StaticImage
-                        src="../../../assets/images/uniri.png"
-                        alt="Dorian Antesic profile"
+                        src="../../../assets/images/sovereign-man.png"
+                        alt="Sovereign man logo"
                         loading="eager"
                         placeholder="blurred"
                         layout="constrained"

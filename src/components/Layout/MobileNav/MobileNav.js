@@ -61,7 +61,7 @@ const MobileNav = () => {
                     <Link to="/media" onClick={() => setIsOpen((isOpen) => !isOpen)}>. media</Link>
                     <Link to="/contact" onClick={() => setIsOpen((isOpen) => !isOpen)}>. contact</Link>
                     <ButtonLink>
-                        <Link to="/podcast" onClick={() => setIsOpen((isOpen) => !isOpen)}>Pričajmo o novcu</Link>
+                        <Link to="/services" onClick={() => setIsOpen((isOpen) => !isOpen)}>Services</Link>
                     </ButtonLink>
                 </Navbar>
             </Header>

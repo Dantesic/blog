@@ -1,5 +1,5 @@
 import React from 'react'
-import { Wrapper, Sponsors, Social, Linkedin, Youtube, Contact, Button } from './styles'
+import { Wrapper, Sponsors, Social, Linkedin, Youtube, Twitter, Instagram, Contact, Button } from './styles'
 
 import { StaticImage } from "gatsby-plugin-image"
 import { Link } from "gatsby"
@@ -54,6 +54,24 @@ const PodcastFooter = () => {
                             <FontAwesomeIcon size={'2x'} icon={["fab", "youtube"]} />
                         </a>
                 </Youtube>
+                <Twitter>
+                    <a
+                        href="https://twitter.com/dorianantesic"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <FontAwesomeIcon size={'2x'} icon={["fab", "twitter"]} />
+                    </a>
+                </Twitter>
+                <Instagram>
+                    <a
+                        href="https://www.instagram.com/dorian.antesic/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <FontAwesomeIcon size={'2x'} icon={["fab", "instagram"]} />
+                    </a>
+                </Instagram>
             </Social>
             <Contact>
                 <h2>Želite se reklamirati na Pričajmo o novcu?</h2>

@@ -1,5 +1,5 @@
 import React from 'react'
-import { Wrapper, ArrowSVG, Navbar, ButtonLink, Form, FormButton, AntesicSVG, Social, SocialMedia, Linkedin, Youtube, Email } from './styles'
+import { Wrapper, ArrowSVG, Navbar, ButtonLink, Form, FormButton, AntesicSVG, Social, SocialMedia, Linkedin, Youtube, Twitter, Instagram, Email } from './styles'
 
 import { StaticImage } from "gatsby-plugin-image"
 import { Link } from "gatsby"
@@ -32,7 +32,7 @@ const Footer = () => {
                 <Link to="/media">. media</Link>
                 <Link to="/contact">. contact</Link>
                 <ButtonLink>
-                    <Link to="/podcast">Pričajmo o novcu</Link>
+                    <Link to="/services">Services</Link>
                 </ButtonLink>  
             </Navbar>
             <AntesicSVG>
@@ -49,7 +49,6 @@ const Footer = () => {
             </AntesicSVG>
             <Form autoComplete="off">
                 <h4>Join my newsletter</h4>
-                <input type="text" placeholder="Your name" name="name" required />
                 <input type="text" placeholder="Your best e-mail address" name="mail" required />
                 <FormButton type="submit">Subscribe</FormButton>
             </Form>
@@ -74,6 +73,24 @@ const Footer = () => {
                             <FontAwesomeIcon size={'2x'} icon={["fab", "youtube"]} />
                         </a>
                     </Youtube>
+                    <Twitter>
+                        <a
+                            href="https://twitter.com/dorianantesic"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <FontAwesomeIcon size={'2x'} icon={["fab", "twitter"]} />
+                        </a>
+                    </Twitter>
+                    <Instagram>
+                        <a
+                            href="https://www.instagram.com/dorian.antesic/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <FontAwesomeIcon size={'2x'} icon={["fab", "instagram"]} />
+                        </a>
+                    </Instagram>
                 </SocialMedia>
                 <Email>
                     <h6>Contact me</h6>

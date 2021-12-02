@@ -5,7 +5,7 @@ export const Wrapper = styled.section`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 5em 0;
+    padding: 5em 0;
 
     h2 {
         color: #001A35;
@@ -29,10 +29,10 @@ export const Wrapper = styled.section`
             font-size: 1.1rem;
         }
 
-        margin: 5em 2em;
+        padding: 5em 2em;
     }
 
     @media (max-width: 370px) {
-        margin: 5em 1em;
+        padding: 5em 1em;
     }
 `

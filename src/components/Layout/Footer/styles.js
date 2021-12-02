@@ -11,6 +11,7 @@ export const Wrapper = styled.footer`
     justify-content: space-between;
     align-items: center;
     row-gap: 2em;
+    padding: 1.5em 0;
 
     @media (max-width: 850px) {
         padding: 0em 8em;
@@ -21,7 +22,8 @@ export const Wrapper = styled.footer`
         "arrow arrow"
         "nav nav"
         "form form"
-        "logo social";
+        "logo logo"
+        "social social";
     }
 
     @media (max-width: 730px) {
@@ -61,10 +63,10 @@ export const ArrowSVG = styled.div`
     justify-self: center;
     align-self: flex-end;
     margin-top: 2em;
-    width: 5em;
+    width: 4em;
 
     @media (max-width: 600px) {
-        width: 4em;
+        width: 3em;
     }
 `
 
@@ -154,6 +156,7 @@ export const ButtonLink = styled.div`
         width: max-content;
         justify-self: center;
         font-size: 1.1em;
+        margin-left: 0;
     }
 `
 export const AntesicSVG = styled.div`
@@ -162,7 +165,7 @@ export const AntesicSVG = styled.div`
     align-self: flex-start;
 
     @media (max-width: 850px) {
-        font-size: 0.7em;
+        font-size: 0.6em;
     }
 
     @media (max-width: 380px) {
@@ -206,6 +209,7 @@ export const Form = styled.form`
     }
 
     @media (max-width: 850px) {
+        margin-bottom: 0;
         h4 {
             font-size: 1.8em;
         }
@@ -214,6 +218,7 @@ export const Form = styled.form`
             width: 18em;
             margin-bottom: 1.5em;
         }
+
     }
 
     @media (max-width: 380px) {
@@ -238,7 +243,7 @@ export const FormButton = styled.button`
         cursor: pointer;
     }
 
-    @media (max-width: 380px) {
+    @media (max-width: 850px) {
         margin-bottom: 0 !important;
     }
 `
@@ -254,8 +259,9 @@ export const SocialMedia = styled.section`
     margin-bottom: 2em;
     display: grid;
     grid-template-areas:
-    "title title"
-    "linkedin youtube";
+    "title title title title"
+    "linkedin youtube twitter instagram";
+    column-gap: 1em;
     
     h6 {
         grid-area: title;
@@ -264,20 +270,18 @@ export const SocialMedia = styled.section`
     }
 
     @media (max-width: 850px) {
-        align-items: center;
-        grid-template-areas:
-        "title linkedin youtube";
-        column-gap: 1em;
+        margin-bottom: 2.5em;
 
         h6 {
-            margin-bottom: 0;
+            text-align: center;
+            margin-bottom: 1.5em;
         }
     }
 `
 
 export const Linkedin = styled.div`
     grid-area: linkedin;
-    background-color: #FFFFFF;
+    background-color: #55C0E0;
     width: 2.8em;
     height: 2.8em;
     border-radius: 50%;
@@ -302,14 +306,63 @@ export const Linkedin = styled.div`
 
 export const Youtube = styled.div`
     grid-area: youtube;
-    background-color: #FFFFFF;
+    background-color: #55C0E0;
     width: 2.8em;
     height: 2.8em;
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-right: 2em;
+    transition: 500ms;
+
+    * {
+        justify-self: center;
+        color: #001A35;
+    }
+
+    :hover {
+        transform: scale(1.2);
+    }
+
+    @media (max-width: 850px) {
+        font-size: 0.9em;
+    }
+`
+
+export const Twitter = styled.div`
+    grid-area: twitter;
+    background-color: #55C0E0;
+    width: 2.8em;
+    height: 2.8em;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 500ms;
+
+    * {
+        justify-self: center;
+        color: #001A35;
+    }
+
+    :hover {
+        transform: scale(1.2);
+    }
+
+    @media (max-width: 850px) {
+        font-size: 0.9em;
+    }
+`
+
+export const Instagram = styled.div`
+    grid-area: instagram;
+    background-color: #55C0E0;
+    width: 2.8em;
+    height: 2.8em;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     transition: 500ms;
 
     * {
@@ -343,7 +396,12 @@ export const Email = styled.section`
 
     @media (max-width: 850px) {
         h6 {
-            margin-bottom: 0.5em;
+            text-align: center;
+            margin-bottom: 1.2em;
+        }
+
+        p {
+            text-align: center;
         }
     }
 `

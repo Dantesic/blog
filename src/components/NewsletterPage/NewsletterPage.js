@@ -25,10 +25,6 @@ const BlogPage = () => {
             </p>
             <Form autoComplete="off" onSubmit={handleSubmit}>
                 <label>
-                    <strong>What should I call you?</strong>
-                    <input type="text" name="name" placeholder="Your name" id="name" required/>
-                </label>
-                <label>
                     <strong>Where should I send the Newsletter?</strong>
                     <input type="email" name="email" placeholder="Your best e-mail address" id="email" required/>
                 </label>

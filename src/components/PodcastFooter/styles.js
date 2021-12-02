@@ -77,8 +77,9 @@ export const Social = styled.section`
         display: grid;
         row-gap: 1.75em;
         grid-template-areas:
-        "title title"
-        "linkedin youtube";
+        "title title title title"
+        "linkedin youtube twitter instagram";
+        padding: 2em 1em;
 
         h2 {
             padding: 0 1em;
@@ -95,6 +96,7 @@ export const Linkedin = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
+    justify-self: center;
     font-size: 1.2em;
     transition: 500ms;
 
@@ -105,10 +107,6 @@ export const Linkedin = styled.div`
     * {
         justify-self: center;
         color: #001A35;
-    }
-
-    @media (max-width: 768px) {
-        justify-self: flex-end;
     }
 `
 
@@ -121,6 +119,53 @@ export const Youtube = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
+    justify-self: center;
+    font-size: 1.2em;
+    transition: 500ms;
+
+    :hover {
+        transform: scale(1.1);
+    }
+
+    * {
+        justify-self: center;
+        color: #001A35;
+    }
+`
+
+export const Twitter = styled.div`
+    grid-area: twitter;
+    background-color: #55C0E0;
+    width: 2.8em;
+    height: 2.8em;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-self: center;
+    font-size: 1.2em;
+    transition: 500ms;
+
+    :hover {
+        transform: scale(1.1);
+    }
+
+    * {
+        justify-self: center;
+        color: #001A35;
+    }
+`
+
+export const Instagram = styled.div`
+    grid-area: instagram;
+    background-color: #55C0E0;
+    width: 2.8em;
+    height: 2.8em;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-self: center;
     font-size: 1.2em;
     transition: 500ms;
 

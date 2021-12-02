@@ -127,18 +127,10 @@ export const Form = styled.form`
         }
     }
 
-    input:first-child {
-        margin-bottom: 1em;
-    }
-
     input::placeholder {
         font-style: normal;
         font-weight: normal;
         font-size: 0.9em;
-    }
-
-    input:first-child {
-        margin-bottom: 1.2em;
     }
 `
 
@@ -148,7 +140,7 @@ export const Button = styled.button`
     border-radius: 0.8rem !important;
     padding: 0.7rem 1rem !important;
     margin: 0 auto;
-    margin-top: 2em;
+    margin-top: 1.75em;
     width: fit-content !important;
     border: none;
     justify-self: center;

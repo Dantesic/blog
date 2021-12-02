@@ -25,6 +25,7 @@ export const Wrapper = styled.section`
     }
 
     @media (max-width: 768px) {
+        height: 80vh;
         p {
             font-size: 1.1rem;
         }

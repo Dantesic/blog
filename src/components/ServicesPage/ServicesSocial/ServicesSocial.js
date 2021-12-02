@@ -28,7 +28,7 @@ const ServicesSocial = () => {
             </Youtube>
             <Twitter>
                 <a
-                    href="https://www.youtube.com/channel/UCptUiwBhO4MfBPiVolHEgkw"
+                    href="https://twitter.com/dorianantesic"
                     target="_blank"
                     rel="noopener noreferrer"
                 >
@@ -37,7 +37,7 @@ const ServicesSocial = () => {
             </Twitter>
             <Instagram>
                 <a
-                    href="https://www.youtube.com/channel/UCptUiwBhO4MfBPiVolHEgkw"
+                    href="https://www.instagram.com/dorian.antesic/"
                     target="_blank"
                     rel="noopener noreferrer"
                 >
