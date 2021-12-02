@@ -82,7 +82,7 @@ export const Text = styled.section`
 
     @media (max-width: 768px) {
         h2 {
-            font-size: 1.8em;
+            font-size: 1.5em;
         }
 
         p {
@@ -93,7 +93,7 @@ export const Text = styled.section`
     @media ${device.mobileL} {
         h2 {
             text-align: center;
-            margin-top: 1.75em;
+            margin-top: 2.75em;
             margin-bottom: 0.75em;
         }
 

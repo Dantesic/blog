@@ -51,15 +51,15 @@ export const Wrapper = styled.section`
             margin-bottom: 5em;
         }
 
-         div {
-             margin-top: 3em;
+        div {
+            margin-top: 3em;
 
-         }
+        }
     }
 
     @media (max-width: 768px) {
         h2 {
-            font-size: 1.8em;
+            font-size: 1.5em;
         }
 
         p {

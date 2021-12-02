@@ -13,7 +13,7 @@ export const Wrapper = styled.section`
     margin-bottom: 5em;
 
     @media (max-width: 768px) {
-        margin-bottom: 2.75em;
+        margin-bottom: 4em;
     }
 `
 
@@ -144,8 +144,13 @@ export const Social = styled.section`
         justify-content: center;
     }
 
+    @media (max-width: 768px) {
+        h2 {
+            font-size: 1.5rem;
+        }
+    }
+
     @media (max-width: 600px) {
-        font-size: 0.8em;
         display: grid;
         grid-template-areas: 
         "title title title title"
@@ -160,10 +165,6 @@ export const Social = styled.section`
 
     @media (max-width: 450px) {
         padding: 2em 0;
-    }
-
-    @media (max-width: 350px) {
-        font-size: 0.75em;
     }
 `
 
@@ -397,7 +398,7 @@ export const BusinessSection = styled.section`
         padding-bottom: 2em;
 
         h2 {
-            font-size: 1.8em;
+            font-size: 1.5em;
             margin-bottom: 2em;
         }
 
@@ -471,8 +472,8 @@ export const EducationSection = styled.section`
 
     @media (max-width: 768px) {
         h2 {
-            margin: 1.5em 0;
-            font-size: 1.8em;
+            margin: 2em 0;
+            font-size: 1.5em;
         }
     }
 `
@@ -487,8 +488,8 @@ export const ExperienceSection = styled.section`
 
     @media (max-width: 768px) {
         h2 {
-            font-size: 1.8em;
-            margin: 1.5em 0;
+            font-size: 1.5em;
+            margin: 2em 0;
         }
     }
 `

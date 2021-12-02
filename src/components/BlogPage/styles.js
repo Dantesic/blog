@@ -62,20 +62,20 @@ export const Wrapper = styled.section`
             margin-bottom: 3em;
         }
 
-         div {
-             font-size: 0.9em;
-             padding: 0.9em 2.5em;
-             margin-top: 3em;
+        div {
+            font-size: 0.9em;
+            padding: 0.9em 2.5em;
+            margin-top: 3em;
 
-         }
+        }
     }
 
     @media (max-width: 768px) {
         margin: 4em 5em;
 
         h2 {
-            font-size: 1.8em;
-            margin-bottom: 1.25em;
+            font-size: 1.5em;
+            margin-bottom: 1.5em;
         }
 
         p {

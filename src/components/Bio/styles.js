@@ -23,7 +23,7 @@ export const Wrapper = styled.section`
         margin: 2em 16em;
 
         span {
-            font-weight: 600;
+            font-weight: bold;
         }
     }
 
@@ -45,7 +45,7 @@ export const Wrapper = styled.section`
             }
         }
 
-    @media ${device.tablet} {
+    @media (max-width: 768px){
         height: 100%;
         padding: 0 5em;
         text-align: center;
@@ -53,24 +53,19 @@ export const Wrapper = styled.section`
         h1 {
             margin-top: 2em;
             margin-bottom: 1em;
-            font-size: 2.8em;
+            font-size: 1.5em;
+            font-weight: bold;
         }
 
         p {
             margin: 0;
-        }
-    }
-
-    @media (max-width: 768px) {
-        p {
             font-size: 1.1rem;
         }
     }
 
     @media (max-width: 600px) {
         h1 {
-            font-size: 1.8em;
-            margin-top: 1.5em;
+            margin-top: 2.5em;
         }
     }
 

@@ -21,7 +21,7 @@ export const Wrapper = styled.section`
 
     span {
         color: #001A35;
-        font-weight: 700;
+        font-weight: bold;
     }
 
     p {
@@ -45,8 +45,8 @@ export const Wrapper = styled.section`
 
     @media (max-width: 768px) {
         h2 {
-            font-size: 1.8em;
-            padding: 0 3em;
+            font-size: 1.5em;
+            padding: 0.5em 3em;
             margin-bottom: 1.2em;
         }
 
@@ -58,7 +58,7 @@ export const Wrapper = styled.section`
 
     @media (max-width: 600px) {
         h2 {
-            padding: 0 2em;
+            padding: 0.5em 2em;
         }
 
         p {
@@ -68,7 +68,7 @@ export const Wrapper = styled.section`
 
     @media (max-width: 500px) {
         h2 {
-            padding: 0 1em;
+            padding: 0.5em 1em;
         }
 
         p {
@@ -77,8 +77,11 @@ export const Wrapper = styled.section`
     }
 
     @media (max-width: 400px) {
+        padding-left: 0.5em;
+        padding-right: 0.5em;
+
         h2 {
-            padding: 0.2em;
+            padding: 0.5em 0.2em;
         }
 
         p {
@@ -123,6 +126,10 @@ export const Form = styled.form`
 
     @media (max-width: 800px) {
         padding-top: 1em;
+
+        input {
+            width: 16em;
+        }
         
         label {
             font-size: 1.1rem;
@@ -130,10 +137,6 @@ export const Form = styled.form`
     }
 
     @media (max-width: 420px) {
-        input {
-            width: 15em;
-        }
-
         input:first-child {
             margin-bottom: 1.2em;
         }

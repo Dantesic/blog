@@ -40,7 +40,7 @@ export const Bullet = styled.section`
     h3 {
         color: #001A35;
         font-size: 1.6em;
-        font-weight: 600;
+        font-weight: bold;
         margin-top: 1.2em;
         margin-bottom: 1em;
         text-align: center;
@@ -63,6 +63,10 @@ export const Bullet = styled.section`
     }
 
     @media (max-width: 800px) {
+        h3 {
+            font-size: 1.5em;
+        }
+
         p {
             padding: 0 5em;
             font-size: 1.1rem;
@@ -76,10 +80,6 @@ export const Bullet = styled.section`
     }
 
     @media ${device.mobileL} {
-        h3 {
-            font-size: 1.7em;
-        }
-
         p {
             padding: 0;
             margin-bottom: 1em;

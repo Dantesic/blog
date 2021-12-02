@@ -25,7 +25,7 @@ export const Wrapper = styled.section`
 
     @media (max-width: 768px) {
         h2 {
-            font-size: 1.8em;
+            font-size: 1.5em;
         }
     }
 `
@@ -57,7 +57,7 @@ export const Bullet = styled.section`
     h3 {
         color: #001A35;
         font-size: 1.8em;
-        font-weight: 600;
+        font-weight: bold;
         margin-top: 1.2em;
         margin-bottom: 1em;
         text-align: center;
@@ -101,6 +101,10 @@ export const Bullet = styled.section`
     }
 
     @media (max-width: 768px) {
+        h3 {
+            font-size: 1.5rem;
+        }
+
         p {
             font-size: 1.1rem;
         }
@@ -126,4 +130,17 @@ export const IconWrapper = styled.div`
         color: #001A35;
         width: 8em;
     }
+
+    @media (max-width: 768px) {
+        * {
+            width: 5.5em;
+        }
+    }
+`
+
+export const TitleWrapper = styled.div`
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 2.2em;
 `

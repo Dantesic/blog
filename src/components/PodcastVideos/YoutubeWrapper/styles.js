@@ -32,7 +32,7 @@ export const Text = styled.section`
 
     h3 {
         color: #001A35;
-        font-weight: 700;
+        font-weight: bold;
         font-size: 1.5rem;
         line-height: 1.25em;
     }

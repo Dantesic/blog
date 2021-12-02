@@ -14,7 +14,8 @@ export const Wrapper = styled.section`
         padding: 0em 1em;
 
         h2 {
-            font-size: 1.8em;
+            font-size: 1.5em;
+            margin-bottom: 1.5em;
         }
     }
 `

@@ -22,6 +22,7 @@ export const Wrapper = styled.section`
         font-size: 1.25rem;
         text-align: center;
         margin-bottom: 2.5em;
+        font-weight: 300;
     }
 
     @media (max-width: 768px) {

@@ -14,7 +14,7 @@ export const Wrapper = styled.section`
     h2 {
         color: #FFFFFF;
         grid-area: title;
-        font-size: 1.5em;
+        font-size: 1.5rem;
         text-align: center;
     }
 
@@ -23,7 +23,7 @@ export const Wrapper = styled.section`
         grid-template-areas: 
         "title title title title"
         "linkedin youtube twitter instagram";
-        column-gap: 0.5em;
+        column-gap: 0;
         padding: 2em 1em;
 
         h2 {

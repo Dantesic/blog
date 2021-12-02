@@ -60,17 +60,13 @@ export const Text = styled.section`
         }
 
         h3 {
-            font-size: 1.5rem;
+            font-size: 1.3rem;
         }
     }
 
     @media (max-width: 600px) {
         div {
             height: 7em !important;
-        }
-
-        h3 {
-            font-size: 1.4rem;
         }
     }
 `
@@ -79,7 +75,6 @@ export const TitleWrapper = styled.span`
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1.9em;
     min-height: 3.3em;
 
     :hover {

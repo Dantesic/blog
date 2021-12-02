@@ -40,7 +40,7 @@ export const Wrapper = styled.section`
         margin-bottom: 2.5em;
 
         h2 {
-            font-size: 2rem;
+            font-size: 1.5em;
         }
 
         span {

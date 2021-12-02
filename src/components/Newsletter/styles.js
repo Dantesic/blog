@@ -31,7 +31,7 @@ export const Wrapper = styled.section`
 
     @media (max-width: 870px) {
         h1 {
-            font-size: 1.8em;
+            font-size: 1.5em;
             padding: 0 3em;
         }
     }
@@ -54,7 +54,6 @@ export const Wrapper = styled.section`
         margin-top: 0;
 
         h1 {
-            font-size: 1.7em;
             padding: 0 1.2em;
             margin-top: 3.5em;
         }
@@ -84,8 +83,13 @@ export const NewsletterWrapper = styled.section`
     }
 
     @media (max-width: 768px) {
+        padding: 2em 1.5em;
+        padding-bottom: 1em;
+        border-radius: 1em;
+
         h2 {
-            font-size: 1.8em;
+            font-size: 1.5em;
+            padding: 0.5em 0;
         }
 
         p {
@@ -94,13 +98,9 @@ export const NewsletterWrapper = styled.section`
     }
 
     @media (max-width: 550px) {
-        padding: 2em 1.5em;
-        padding-bottom: 1em;
         width: 100%;
-        border-radius: 1em;
-
+        
         h2 {
-            font-size: 1.8em;
             margin-bottom: 0.75em;
         }
 

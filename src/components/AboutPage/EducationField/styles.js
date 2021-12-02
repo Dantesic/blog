@@ -45,6 +45,10 @@ export const Header = styled.section`
     }
 
     @media (max-width: 768px) {
+        h6 {
+            font-size: 1.1rem;
+        }
+
         span {
             font-size: 1.1rem;
         }
@@ -53,8 +57,4 @@ export const Header = styled.section`
 
 export const Content = styled.ul`
     margin-top: 1em;
-/* 
-    li {
-        margin-bottom: 0.5em;
-    } */
 `

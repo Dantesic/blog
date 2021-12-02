@@ -56,8 +56,13 @@ export const Text = styled.section`
     @media (max-width: 800px) {
 
         h3 {
-            margin-top: 1em;
-            font-size: 1.8em;
+            margin-top: 1.5em;
+            font-size: 1.5em;
+            margin-bottom: 2em;
+        }
+
+        h4 {
+            font-size: 1.1rem;
             margin-bottom: 1.5em;
         }
 
@@ -94,6 +99,7 @@ export const Form = styled.form`
         margin-bottom: 2em;
         text-align: center;
         font-size: 1.25rem;
+        font-weight: bold;
     }
 
     input, textarea {

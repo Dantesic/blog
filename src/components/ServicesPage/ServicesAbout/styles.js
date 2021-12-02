@@ -21,15 +21,16 @@ export const Wrapper = styled.section`
     }
 
     @media (max-width: 768px) {
+        padding: 5em 2em;
+
         h2 {
-            font-size: 1.8em;
+            font-size: 1.5em;
+            margin-bottom: 0.5em;
         }
 
         p {
             font-size: 1.1rem;
         }
-
-        padding: 5em 2em;
     }
 
     @media (max-width: 370px) {

@@ -64,7 +64,7 @@ export const NavbarRight = styled.nav`
 `
 
 export const NavbarMiddle = styled.nav`
-    margin-right: 4.2em;
+    margin-right: 8em;
     font-size: 1.1em;
 `
 

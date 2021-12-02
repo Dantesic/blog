@@ -211,11 +211,13 @@ export const Form = styled.form`
     @media (max-width: 850px) {
         margin-bottom: 0;
         h4 {
-            font-size: 1.8em;
+            font-size: 1.5em;
+            padding: 0.25em 0;
+            padding-bottom: 0;
         }
 
         input {
-            width: 18em;
+            width: 16em;
             margin-bottom: 1.5em;
         }
 
