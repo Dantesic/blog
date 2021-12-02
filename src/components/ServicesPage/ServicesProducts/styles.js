@@ -40,7 +40,7 @@ export const BulletWrapper = styled.section`
         height: 100%;
 
         > section:not(:first-child) {
-            margin-top: 4em;
+            margin-top: 3em;
         }
     }
 `
@@ -140,7 +140,13 @@ export const TitleWrapper = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    min-height: 2.2em;
+    height: 4.5em;
     margin-top: 3em;
     margin-bottom: 3em;
+
+    @media (max-width: 1050px) {
+        height: auto;
+        margin: 2em 0;
+        margin-bottom: 1.5em;
+    }
 `
