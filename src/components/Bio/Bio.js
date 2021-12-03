@@ -15,7 +15,7 @@ const Bio = () => {
                 <Button>
                     <ScrollLink to="about-me-section" spy={true} smooth={true}>Learn More</ScrollLink>
                 </Button>
-                <Button><Link to="/podcast">Pričajmo o novcu</Link></Button>
+                <Button><Link to="/services">Services</Link></Button>
             </Buttons>
         </Wrapper>
     )

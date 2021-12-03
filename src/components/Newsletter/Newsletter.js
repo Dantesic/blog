@@ -15,7 +15,7 @@ const Newsletter = () => {
         <Wrapper>
             <h1>Find joy in the happiness of the world that has not yet been born.</h1>
             <NewsletterWrapper>
-                <h2>Newsletter</h2>
+                <h2>E-letters</h2>
                 <p>Subscribe and receive directly to your inbox materials that will enhance your personal and professional life.</p>
                 <Form autoComplete="off" onSubmit={handleSubmit}>
                     <input type="text" placeholder="Your best e-mail address" name="mail" id="email" required />

@@ -97,6 +97,12 @@ export const Text = styled.p`
         font-weight: 600;
     }
 
+    @media (max-width: 1210px) {
+        br {
+            display: none;
+        }
+    }
+
     @media (max-width: 1000px) {
         padding-right: 1em;
     }
@@ -156,7 +162,7 @@ export const Form = styled.form`
 export const Button = styled.button`
     color: #FFFFFF !important;
     background: #55C0E0 !important;
-    margin-top: 2em;
+    margin-top: 0.5em;
     border-radius: 0.8rem !important;
     padding: 0.7rem 1rem !important;
     width: fit-content !important;

@@ -6,7 +6,7 @@ import MobileNav from '../components/Layout/MobileNav/MobileNav'
 import ContactPage from '../components/ContactPage/ContactPage'
 import Footer from '../components/Layout/Footer/Footer'
 
-const Blog = () => {
+const Contact = () => {
   return (
     <>
       <Seo
@@ -23,5 +23,5 @@ const Blog = () => {
   )
 }
 
-export default Blog
+export default Contact
 

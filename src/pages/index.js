@@ -27,8 +27,7 @@ const Index = () => {
       <AboutMe />
       <Bullets />
       <Newsletter />
-      <BlogPreview title={'Blog in English'} link={'/blog'} empty={true} />
-      <BlogPreview title={'Pričajmo o novcu'} link={'/podcast'} subtitle={'podcast & blog in Croatian'}/>
+      <BlogPreview title={'Learn'} link={'/learn'} />
       <Footer />
     </>
   )

@@ -32,7 +32,7 @@ const DesktopNav = () => {
             <Header scrolled={scrolled}>
                 <NavbarLeft>
                     <Link to="/about">. about</Link>
-                    <Link to="/blog">. blog</Link>
+                    <Link to="/learn">. learn</Link>
                     <Link to="/media">. media</Link>
                     <Link to="/contact">. contact</Link>
                 </NavbarLeft>
@@ -50,7 +50,7 @@ const DesktopNav = () => {
                 </NavbarMiddle>
                 <NavbarRight>
                     <Link to="/newsletter">
-                        <BlueLink>Newsletter</BlueLink>
+                        <BlueLink>E-letters</BlueLink>
                     </Link>
                     <Link to="/services">
                         <BlueLink>Services</BlueLink>

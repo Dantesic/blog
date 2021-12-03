@@ -13,7 +13,7 @@ export const Wrapper = styled.section`
     h1 {
         color: #001A35;
         font-size: 3em;
-        font-weight: 800;
+        font-weight: bold;
     }
 
     p {

@@ -8,10 +8,10 @@ const Homepage = () => {
         <Wrapper>
             <SubscribeSection>
                 <H1>Are you interested in <H1Span>Finance, Economics & Philosophy?</H1Span></H1>
-                <Text>Subscribe Now and receive directly to your inbox materials that will enhance your personal and professional life.</Text>
-                <Text>Yes, it’s completely <span>free.</span></Text>
+                <Text>Bitcoin, stoicism, bodybuilding, investing & economics.<br/> Yes, all of it!</Text>
+                <Text>I research and write about topics that will build you into a strong human and help you build Family Wealth.</Text>
+                <Text>Subscribe, it's completely <span>FREE.</span></Text>
                 <Form autoComplete="off">
-                    <input type="text" placeholder="Your name" name="name" required />
                     <input type="text" placeholder="Your e-mail address" name="mail" required />
                     <Button type="submit">Subscribe</Button>
                 </Form>

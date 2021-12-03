@@ -56,10 +56,10 @@ const MobileNav = () => {
                 <Navbar className={`${isOpen ? `nav-active` : `nav-hidden`}`}>
                     <Link to="/" onClick={() => setIsOpen((isOpen) => !isOpen)}>. home</Link>
                     <Link to="/about" onClick={() => setIsOpen((isOpen) => !isOpen)}>. about</Link>
-                    <Link to="/blog" onClick={() => setIsOpen((isOpen) => !isOpen)}>. blog</Link>
-                    <Link to="/newsletter" onClick={() => setIsOpen((isOpen) => !isOpen)}>. newsletter</Link>
+                    <Link to="/learn" onClick={() => setIsOpen((isOpen) => !isOpen)}>. learn</Link>
                     <Link to="/media" onClick={() => setIsOpen((isOpen) => !isOpen)}>. media</Link>
                     <Link to="/contact" onClick={() => setIsOpen((isOpen) => !isOpen)}>. contact</Link>
+                    <Link to="/newsletter" onClick={() => setIsOpen((isOpen) => !isOpen)}>E-letters</Link>
                     <ButtonLink>
                         <Link to="/services" onClick={() => setIsOpen((isOpen) => !isOpen)}>Services</Link>
                     </ButtonLink>

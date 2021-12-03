@@ -11,7 +11,7 @@ const AboutMe = () => {
             <Wrapper name="about-me-section">
                 <Text>
                     <h2>About Me</h2>
-                    <p>Economist, Financier & Consultant.</p>
+                    <p>Economist, Investor & Consultant.</p>
 
                     <p>I am interested in the well-being of <strong>individuals</strong> and their <strong>families</strong>.</p>
 

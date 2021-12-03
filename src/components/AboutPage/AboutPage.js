@@ -179,9 +179,9 @@ const AboutPage = () => {
                 <h2>Experience</h2>
                 <Grid>
                     <ExperienceField
-                        title={`Host and Owner`}
+                        title={`Owner and Founder`}
                         location={`online`}
-                        firm={`Pričajmo o Novcu`}
+                        firm={`Antesic`}
                         duration={`September 2020 - Present`}
                         items={[`Podcast and blog`, `Creating educational and informative articles and videos about finance & economics`, `Interviewing professionals from the business and academia world about finance & economics-related topics`]}
                     />

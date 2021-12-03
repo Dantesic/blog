@@ -27,8 +27,8 @@ const Footer = () => {
             <Navbar>
                 <Link to="/">. home</Link>
                 <Link to="/about">. about</Link>
-                <Link to="/blog">. blog</Link>
-                <Link to="/newsletter">. newsletter</Link>
+                <Link to="/learn">. learn</Link>
+                <Link to="/newsletter">. e-letters</Link>
                 <Link to="/media">. media</Link>
                 <Link to="/contact">. contact</Link>
                 <ButtonLink>
@@ -48,7 +48,7 @@ const Footer = () => {
                 </Link>
             </AntesicSVG>
             <Form autoComplete="off">
-                <h4>Join my newsletter</h4>
+                <h4>E-letters community</h4>
                 <input type="text" placeholder="Your best e-mail address" name="mail" required />
                 <FormButton type="submit">Subscribe</FormButton>
             </Form>

@@ -125,7 +125,7 @@ export const IconWrapper = styled.div`
 
     * {
         color: #001A35;
-        width: 8em;
+        width: 6em;
     }
 
     @media (max-width: 768px) {

@@ -6,11 +6,11 @@ import MobileNav from '../components/Layout/MobileNav/MobileNav'
 import NewsletterPage from '../components/NewsletterPage/NewsletterPage'
 import Footer from '../components/Layout/Footer/Footer'
 
-const Media = () => {
+const Newsletter = () => {
   return (
     <>
       <Seo
-        title={"Newsletter | Dorian Antešić"}
+        title={"E-letters | Dorian Antešić"}
         description={
           "A newsletter focused on building Family Wealth. I send private emails with the aim of building a strong human and through that - Family Wealth. Finance, Economics & Philosophy."
         }
@@ -23,4 +23,4 @@ const Media = () => {
   )
 }
 
-export default Media
+export default Newsletter
