@@ -4,6 +4,7 @@ import Seo from '../components/seo'
 import DesktopNav from '../components/Layout/DesktopNav/DesktopNav'
 import MobileNav from '../components/Layout/MobileNav/MobileNav'
 import BlogPage from '../components/BlogPage/BlogPage'
+import PodcastVideos from '../components/PodcastVideos/PodcastVideos'
 import Footer from '../components/Layout/Footer/Footer'
 
 const Learn = () => {
@@ -18,6 +19,7 @@ const Learn = () => {
       <DesktopNav />
       <MobileNav />
       <BlogPage />
+      <PodcastVideos />
       <Footer />
     </>
   )

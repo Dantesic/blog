@@ -7,6 +7,7 @@ export const Wrapper = styled.section`
     justify-content: flex-end;
     align-items: center;
     margin-top: 8em;
+    margin-bottom: 8em;
 
     h1 {
         color: #001A35;
@@ -30,6 +31,8 @@ export const Wrapper = styled.section`
     }
 
     @media (max-width: 870px) {
+        margin-bottom: 6em;
+
         h1 {
             font-size: 1.5em;
             padding: 0 3em;

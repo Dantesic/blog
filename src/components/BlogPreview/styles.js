@@ -6,19 +6,14 @@ export const Wrapper = styled.section`
     justify-content: center;
     align-items: center;
     margin: 7em 9.5em;
+    margin-top: 5.5em;
     margin-bottom: 4em;
 
     h2 {
         font-size: 2.2em;
         color: #001A35;
-        margin-bottom: 0.9em;
+        margin-bottom: 0.5em;
         font-weight: 600;
-    }
-
-    p {
-        color: rgb(0, 26, 53);
-        font-size: 1.25rem;
-        margin-bottom: 2.7em;
     }
 
     span {
@@ -33,10 +28,12 @@ export const Wrapper = styled.section`
 
     @media (max-width: 1400px) {
         margin: 7em 5em;
+        margin-top: 5.5em;
     }
 
     @media (max-width: 1200px) {
         margin: 7em 3em;
+        margin-top: 5.5em;
     }
 
     @media (max-width: 900px) {
@@ -47,10 +44,6 @@ export const Wrapper = styled.section`
             margin-bottom: 0.3em;
         }
 
-        p {
-            margin-bottom: 5em;
-        }
-
         div {
             margin-top: 3em;
 
@@ -58,12 +51,10 @@ export const Wrapper = styled.section`
     }
 
     @media (max-width: 768px) {
+        margin-bottom: 0;
+
         h2 {
             font-size: 1.5em;
-        }
-
-        p {
-            font-size: 1.1rem;
         }
 
         span {
@@ -72,17 +63,36 @@ export const Wrapper = styled.section`
     }
 
     @media (max-width: 750px) {
-        margin: 5em 5em;
+        margin: 4em 5em;
+        margin-bottom: 0;
     }
 
     @media (max-width: 600px) {
-        margin: 5em 2em;
+        margin: 4em 2em;
+        margin-bottom: 0;
     }
 
     @media (max-width: 500px) {
-        margin: 5em 1em;
+        margin: 4em 1em;
+        margin-bottom: 0;
     }
 `
+
+export const Subtitle = styled.p`
+        color: rgb(0, 26, 53);
+        font-size: 1.25rem;
+        margin-bottom: 2.7em;
+
+        @media (max-width: 900px) {
+            margin-bottom: 3.5em;
+        }
+
+        @media (max-width: 768px) {
+            font-size: 1.1rem;
+            margin-bottom: 3em;
+        }
+`
+
 export const Preview = styled.section`
     display: grid;
     grid-template-columns: repeat(3, 1fr);

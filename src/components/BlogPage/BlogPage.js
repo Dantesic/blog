@@ -74,7 +74,7 @@ const BlogPage = () => {
 
     return (
         <Wrapper>
-            <h2>. blog</h2>
+            <h2>. learn</h2>
             <p>
                 If you are interested in finance, economics and philosophy topics, hopefully, you will like this page. Here I share my thoughts about certain things, ideas, tips and knowledge that I possess.
             </p>

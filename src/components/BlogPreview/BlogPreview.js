@@ -1,5 +1,5 @@
 import React from 'react'
-import { Wrapper, Preview } from './styles'
+import { Wrapper, Subtitle, Preview } from './styles'
 import { Button } from '../../styles/global'
 
 import { graphql, useStaticQuery } from "gatsby"
@@ -41,7 +41,7 @@ const BlogPreview = ({ title, subtitle, link, empty }) => {
     return (
         <Wrapper>
             <h2>{title}</h2>
-            <p>{subtitle}</p>
+            <Subtitle>{subtitle}</Subtitle>
             {!empty ?
               (<Preview>
                 {data.allMarkdownRemark.edges.map(({ node }) => (

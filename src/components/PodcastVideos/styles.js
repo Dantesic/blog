@@ -11,8 +11,8 @@ export const Wrapper = styled.section`
     h2 {
         font-size: 2.2em;
         color: #001A35;
-        margin-bottom: 1em;
-        font-weight: 600;
+        margin-bottom: 0.8em;
+        font-weight: bold;
     }
 
     /* Styling button without affecting child iframe div */
@@ -32,26 +32,26 @@ export const Wrapper = styled.section`
         margin: 5em 8em;
         margin-bottom: 3em;
 
-         div {
+        div {
             font-size: 0.9em;
             padding: 0.9em 2.5em;
-         }
+        }
     }
 
     @media (max-width: 768px) {
-        margin: 5em 5em;
+        margin: 4em 5em;
 
         h2 {
-            font-size: 1.8em;
+            font-size: 1.5rem;
         }
     }
 
     @media (max-width: 600px) {
-        margin: 5em 2em;
+        margin: 4em 2em;
     }
 
     @media (max-width: 500px) {
-        margin: 5em 1em;
+        margin: 4em 1em;
     }
 `
 export const Preview = styled.section`

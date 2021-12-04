@@ -63,13 +63,13 @@ const PodcastVideos = () => {
     return (
         <>
             <Wrapper>
-                <h2>Najnovije epizode...</h2>
+                <h2>Newest episodes</h2>
                 <Preview>
                     {(!isLoading) && list.map((video, index) => (
                         <YoutubeWrapper key={index} video={video}/>
                     ))}
                 </Preview>
-                <Button onClick={handleLoadMore}>Vidi više</Button>
+                <Button onClick={handleLoadMore}>See more</Button>
             </Wrapper>
         </>
     )

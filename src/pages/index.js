@@ -7,8 +7,10 @@ import Homepage from '../components/Homepage/Homepage'
 import Bio from '../components/Bio/Bio'
 import AboutMe from '../components/AboutMe/AboutMe'
 import Bullets from '../components/Bullets/Bullets'
+import ServicesProducts from '../components/ServicesPage/ServicesProducts/ServicesProducts'
 import Newsletter from '../components/Newsletter/Newsletter'
 import BlogPreview from '../components/BlogPreview/BlogPreview'
+import PodcastVideos from '../components/PodcastVideos/PodcastVideos'
 import Footer from '../components/Layout/Footer/Footer'
 
 const Index = () => {
@@ -27,7 +29,9 @@ const Index = () => {
       <AboutMe />
       <Bullets />
       <Newsletter />
+      <ServicesProducts />
       <BlogPreview title={'Learn'} link={'/learn'} />
+      <PodcastVideos />
       <Footer />
     </>
   )
