@@ -12,7 +12,7 @@ const Homepage = () => {
                 <Text>I research and write about topics that will build you into a strong human and help you build Family Wealth.</Text>
                 <Text>Subscribe, it's completely <span>FREE.</span></Text>
                 <Form autoComplete="off">
-                    <input type="text" placeholder="Your e-mail address" name="mail" required />
+                    <input type="text" placeholder="Your best e-mail address" name="mail" required />
                     <Button type="submit">Subscribe</Button>
                 </Form>
             </SubscribeSection>
