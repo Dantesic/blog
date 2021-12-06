@@ -126,11 +126,13 @@ export const IconWrapper = styled.div`
     * {
         color: #001A35;
         width: 6em;
+        height: 7em;
     }
 
     @media (max-width: 768px) {
         * {
             width: 5.5em;
+            height: auto;
         }
     }
 `
@@ -140,9 +142,8 @@ export const TitleWrapper = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 4.5em;
     margin-top: 3em;
-    margin-bottom: 3em;
+    margin-bottom: 2em;
 
     @media (max-width: 1050px) {
         height: auto;

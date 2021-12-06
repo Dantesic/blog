@@ -21,9 +21,9 @@ const ServicesProducts = () => {
                         />
                     </IconWrapper>
                     <TitleWrapper>
-                        <h3>Consultations on Bitcoin and Digital Assets</h3>
+                        <h3>Bitcoin consulting</h3>
                     </TitleWrapper>
-                    <p>1-on-1 online education and consultation that will teach you about bitcoin and digital assets, their philosophy, how they work, how to buy and secure them. </p>
+                    <p>1-on-1 online education and consultation that will teach you about bitcoin, its philosophy, how bitcoin works, how to buy it and secure it.</p>
                     <Button><Link to="/contact">Contact</Link></Button>
                 </Bullet>
                 <Bullet>

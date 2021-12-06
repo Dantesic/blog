@@ -33,7 +33,9 @@ export const Navbar = styled.nav`
 `
 
 export const ButtonLink = styled.div`
-
+    a {
+        color: #55C0E0;
+    }
 `
 
 export const HeightDiv = styled.div`

@@ -17,20 +17,20 @@ const MobileNav = () => {
     const handleScroll=() => {
         const offset = window.scrollY;
         if(offset < scrollY ){
-          setScrolled(true);
+            setScrolled(true);
         }
         else{
-          setScrolled(false);
+            setScrolled(false);
         }
         setScrollY(window.scrollY);
-      }
+    }
     
-      useEffect(() => {
+    useEffect(() => {
         window.addEventListener('scroll', handleScroll);
         return () => {
-          window.removeEventListener('scroll', handleScroll)
+            window.removeEventListener('scroll', handleScroll)
         }
-      }, [handleScroll])
+    }, [handleScroll])
 
     return (
         <>
@@ -59,7 +59,9 @@ const MobileNav = () => {
                     <Link to="/learn" onClick={() => setIsOpen((isOpen) => !isOpen)}>. learn</Link>
                     <Link to="/media" onClick={() => setIsOpen((isOpen) => !isOpen)}>. media</Link>
                     <Link to="/contact" onClick={() => setIsOpen((isOpen) => !isOpen)}>. contact</Link>
-                    <Link to="/newsletter" onClick={() => setIsOpen((isOpen) => !isOpen)}>E-letters</Link>
+                    <ButtonLink>
+                        <Link to="/newsletter" onClick={() => setIsOpen((isOpen) => !isOpen)}>E-letters</Link>
+                    </ButtonLink>
                     <ButtonLink>
                         <Link to="/services" onClick={() => setIsOpen((isOpen) => !isOpen)}>Services</Link>
                     </ButtonLink>
