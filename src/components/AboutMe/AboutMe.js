@@ -15,7 +15,7 @@ const AboutMe = () => {
 
                     <p>I am interested in the well-being of <strong>individuals</strong> and their <strong>families</strong>.</p>
 
-                    <p>Focused on creating <strong>Family Wealth</strong>.</p>
+                    <p>Focused on building <strong>Family Wealth</strong>.</p>
 
                     <div>
                         <p>My main fields of interest and research are:</p>

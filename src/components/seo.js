@@ -16,7 +16,7 @@ const SEO = ({ description, lang, meta, title, postImg, slug }) => {
             siteUrl
           }
         }
-        defaultImg: file(relativePath: {eq: "naslovna.png"}) {
+        defaultImg: file(relativePath: {eq: "logo.png"}) {
           childImageSharp {
               gatsbyImageData
           }
@@ -67,9 +67,13 @@ const SEO = ({ description, lang, meta, title, postImg, slug }) => {
           name: `twitter:card`,
           content: `summary`,
         },
+        // {
+        //   name='twitter:site',
+        //   content='@nDantesic'
+        // },
         {
           name: `twitter:creator`,
-          content: 'Dantesic',
+          content: '@Dantesic',
         },
         {
           name: `twitter:title`,
