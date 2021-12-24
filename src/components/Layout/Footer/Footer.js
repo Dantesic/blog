@@ -5,11 +5,19 @@ import { StaticImage } from "gatsby-plugin-image"
 import { Link } from "gatsby"
 import { useLocation } from '@reach/router';
 
+import addToMailchimp from 'gatsby-plugin-mailchimp'
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import "../../../utils/fontawesome"
 
 const Footer = () => {
     const location = useLocation();
+
+    const handleSubmit = async (e) => {
+        e.preventDefault();
+        const { email } = e.target.elements
+        const result = await addToMailchimp(email.value)
+    }
 
     return (
         <Wrapper>
@@ -47,7 +55,7 @@ const Footer = () => {
                     />
                 </Link>
             </AntesicSVG>
-            <Form autoComplete="off">
+            <Form autoComplete="off" onSubmit={handleSubmit}>
                 <h4>E-letters community</h4>
                 <input type="text" placeholder="Your best e-mail address" name="mail" required />
                 <FormButton type="submit">Subscribe</FormButton>

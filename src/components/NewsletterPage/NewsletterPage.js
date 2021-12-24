@@ -7,8 +7,8 @@ const BlogPage = () => {
 
     const handleSubmit = async (e) => {
         e.preventDefault();
-        const { name, email } = e.target.elements
-        const result = await addToMailchimp(email.value, {NAME: name.value})
+        const { email } = e.target.elements
+        const result = await addToMailchimp(email.value)
     }
 
     return (
