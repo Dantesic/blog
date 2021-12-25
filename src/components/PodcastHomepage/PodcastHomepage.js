@@ -12,6 +12,8 @@ const PodcastHomepage = () => {
         e.preventDefault();
         const { name, email } = e.target.elements
         const result = await addToMailchimp(email.value, {NAME: name.value})
+        alert (`Welcome to our community!`);
+        window.location.reload();
     }
 
     return (

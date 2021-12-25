@@ -56,7 +56,7 @@ const ServicesProducts = () => {
                         <h3>E-letters</h3>
                     </TitleWrapper>
                     <p>Are you interested in building wealth that will last for generations? I write personal e-letters about finance, economics & philosophy that I send directly to your email inbox.</p>
-                    <Button><Link to="/newsletter">Subscribe</Link></Button>
+                    <Button><Link to="/e-letters">Subscribe</Link></Button>
                 </Bullet>
             </BulletWrapper>
         </Wrapper>

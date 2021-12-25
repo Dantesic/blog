@@ -17,6 +17,8 @@ const Footer = () => {
         e.preventDefault();
         const { email } = e.target.elements
         const result = await addToMailchimp(email.value)
+        alert (`Welcome to our community!`);
+        window.location.reload();
     }
 
     return (
@@ -36,7 +38,7 @@ const Footer = () => {
                 <Link to="/">. home</Link>
                 <Link to="/about">. about</Link>
                 <Link to="/learn">. learn</Link>
-                <Link to="/newsletter">. e-letters</Link>
+                <Link to="/e-letters">. e-letters</Link>
                 <Link to="/media">. media</Link>
                 <Link to="/contact">. contact</Link>
                 <ButtonLink>

@@ -49,7 +49,7 @@ const DesktopNav = () => {
                     </Link>
                 </NavbarMiddle>
                 <NavbarRight>
-                    <Link to="/newsletter">
+                    <Link to="/e-letters">
                         <BlueLink>E-letters</BlueLink>
                     </Link>
                     <Link to="/services">

@@ -9,6 +9,8 @@ const Newsletter = () => {
         e.preventDefault();
         const { email } = e.target.elements
         const result = await addToMailchimp(email.value)
+        alert (`Welcome to our community!`);
+        window.location.reload();
     }
 
     return (

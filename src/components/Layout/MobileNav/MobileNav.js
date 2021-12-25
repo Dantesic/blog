@@ -60,7 +60,7 @@ const MobileNav = () => {
                     <Link to="/media" onClick={() => setIsOpen((isOpen) => !isOpen)}>. media</Link>
                     <Link to="/contact" onClick={() => setIsOpen((isOpen) => !isOpen)}>. contact</Link>
                     <ButtonLink>
-                        <Link to="/newsletter" onClick={() => setIsOpen((isOpen) => !isOpen)}>E-letters</Link>
+                        <Link to="/e-letters" onClick={() => setIsOpen((isOpen) => !isOpen)}>E-letters</Link>
                     </ButtonLink>
                     <ButtonLink>
                         <Link to="/services" onClick={() => setIsOpen((isOpen) => !isOpen)}>Services</Link>
